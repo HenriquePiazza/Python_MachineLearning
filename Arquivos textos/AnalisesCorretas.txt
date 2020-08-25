@@ -1,0 +1,873 @@
+RS-Ajustar a geração do informativo SPED Fiscal para o imposto 08-diferencial de alíquotas quando a apuração do imposto 1-ICMS for quinzenal ou decendial.
+RS-Calcular o imposto 1-ICMS antecipado conforme Decreto Nº 54348 de 11/2018.
+RS-Alterar sistema para que seja gerado corretamente o registro E116 do sped fiscal para o imposto 55-Ampara-N e 56- Ampara-ST, quando o mesmo possui periodicidade quinzenal\x0d\x0a
+RS-Alterar o comportamento do sistema no SPED Fiscal quando possui valor de 145-DIFAL Não contribuinte e imposto 1-ICMS esta com a periodicidade quinzenal.\x0d\x0a
+SPED-Otimizar a geração do arquivo no registro C197.
+SPED-Otimizar a geração do arquivo na DW "ds_sped_notas_saidas" para os registros C100, C500 e D100".
+SC-Alterar sistema para calcular o FUNDOSOCIAL na empresa centralizadora quando a empresa calcular "Crédito Presumido Confecção - Anexo 2, Art. 21, IX" e "Apurar no estabelecimento centralizador".
+MA-Criar opção para que o sistema permita efetuar lançamento sem controlar o CFOP por UF.
+AC-Gerar o SPED Fiscal para empresas com Enquadramento Empresa de Pequeno Porte - EPP.
+Permitir gerar e salvar os arquivos dos eventos do Reinf antes de enviar.
+PE-Alterar o sistema para desconsiderar o valor do desconto na base de cálculo do imposto 31-ICMS ST/AT.
+ES-Apurar o imposto 130-FUNDAP para os modelos de transporte.
+PE-Alterar para não gerar os registros 8550 e 8555 do arquivo GI do informativo SEF 2012, para notas de entrada de energia elétrica, serviços de transporte e de comunicação.
+Alterar o cálculo do Simples Nacional quando a empresa ultrapassa o sublimite e está enquadrada em faixa diferente da 5ª e 6ª faixa.
+Alterar o campo 02 do registro 0005 do informativo SPED Fiscal, para considerar 60 caracteres.
+PR-Alterar a descrição do crédito presumido de 20% para transportadoras conforme ítem 46 do anexo VII do RICMS.
+PR-Gerar o COD 1 no livro de Entradas quando a nota possuir crédito nas aquisições de empresas optantes pelo Simples Nacional.
+RJ-Alterar o sistema para gerar na GIA e no SPED Fiscal os códigos corretos quando o CFOP utilizado é 2-910.\x0d\x0a
+Atualizar tabela de códigos NCM conforme Resolução CAMEX Nº 11, DE 28 DE FEVEREIRO DE 2018, Resolução CAMEX Nº 58, DE 31 DE AGOSTO DE 2018 e Resolução CAMEX Nº 71, de 02 DE Outubro DE 2018
+Habilitar o campo "Vigência inicial" da guia "INSS Receita Bruta" do cadastro de produto.
+DF-Gerar as notas fiscais com modelo "Nota Fiscal/Conta de Fornecimento de Água Canalizada, código 29" no registro E100 do Livro Eletrônico.
+BA-Alterar o sistema para considerar o valor do DIFALI para o cálculo do Desenvolve.\x0d\x0a
+GO-Alterar o cálculo do imposto 27-ICMSA nas empresas do Simples Nacional conforme o Decreto Nº 9.326, de 02/10/2018.
+RO-Alterar a descrição do registro 0460 do SPED Fiscal, referente ao cálculo do ICMS pago antecipadamente por ocasião das saídas de produtos primários.
+SE-Atualizar a mensagem emitida atualmente no parâmetros para a opção Optante pelo tratamento tributário especial - TARE e incluir a mesma no controle de vigências.
+Considerar redução e isenção na mesma receita ao integrar o sistema com o PGDAS quando emitida a guia DAS.
+PE-Alterar o registro 8570 para considerar os valores dos ajustes de ICMS vinculados ao incentivo PRODEPE.
+SC-Alterar o comportamento da opção "Crédito de energia elétrica com base em laudo técnico" para que seja possível aproveitar o valor do crédito todo via DCIP ou separado entre créditos pelas entradas e DCIP.
+Criar opção para o usuário definir se o registro 0210-CONSUMO ESPECÍFICO PADRONIZADO não será gerado no informativo SPED Fiscal.
+PR-Incluir o código PR010002 em "Movimentos/Outros/Impostos Lançados/Estadual".
+Implementar opção para informar a inscrição CAEPF
+PE-Considerar a opção "Apropriar o crédito de ICMS em 1/48 a partir do mês de início efetivo das atividades" habilitada no cadastro do Bem no módulo Patrimônio.
+Somar o valor do seguro, despesas acessórias e pedágio no campo 18-VL_SERV do registro D100 do EFD Contribuições.
+RJ-Permitir gerar o registro E112 e E113 do SPED Fiscal quando houver informações de ajustes no E111, e o código do ajuste for RJ020071.\x0d\x0a
+MA-Considerar apenas 6 dígitos no número do documento de NFC-e, modelo 65 na geração do informativo Sintegra.
+Permitir realizar a baixa do parcelamento do Simples Nacional com valor de parcela inferior ao calculado pelo sistema. 
+PR-Alterar o sistema para gerar no SPED as notas lançadas com CFOPs 1602, 1605, 5602 e 5605.
+Gerar no registro C590 do informativo SPED Fiscal, valores de despesas acessórias informados para os produtos da nota.\x0d\x0a
+RS-Permitir realizar o calculo simultaneamente dos créditos presumidos do art. 32 de Suco de uva (XCIV), de Vinho (LXXVIII) e de Vinho( CLXVIII).\x0d\x0a
+SP-Alterar o informativo Nova GIA para abater da DIPAM os valores das entradas com CFOPs 1.301, 2.301 e 3.301.
+MG-Alterar o registro 88STITNF do Sintegra conforme Decreto nº 47.530
+SP-Permitir realizar o lançamento de CF-es com mesmo número de extrato e de série para competências distintas\x0d\x0a
+PE-Alterar para gerar os códigos 61 e 62 do campo 02, registro 8555 no arquivo GI-ICMS do informativo SEF 2012.\x0d\x0a
+SC-Alterar o sistema para que seja gerado o registro D197 para lançamentos de entradas de CT-e que possuir o imposto 31-ST/AT com tipo Lançado Por Nota
+PI-Gerar o código de ajuste PI020012 nas apurações referente ao "Crédito presumido de 20% para transportadoras - Convênio ICMS 106/96".
+TO-Alterar a base de cálculo do 08-DIFALI para considerar o percentual de redução. 
+ES-Implementar o crédito presumido nas operações interestaduais não presenciais destinadas a consumidor final - Art. 530-L-R-I do RICMS.
+Informativo I-SIMP - Atualização Versão 454 12/2018
+RS-Alterar o percentual do Crédito presumido estab. abatedores do Programa AGREGAR-RS CARNES - Livro I, art. 32, XI conforme nota 05 do DECRETO Nº 54.044, DE 27 DE ABRIL DE 2018.\x0d\x0a
+PI-Gerar o registro E111 com o código PI050004 para entradas interestaduais de uso e consumo 
+RJ-Não emitir valores referentes ao imposto 154-FEEF no informativo GIA conforme RESOLUÇÃO SEFAZ Nº 339 DE 31 DE OUTUBRO DE 2018.
+PB-Habilitar o campo "Ajuste no SPED" para lançamentos com operação "Estorno de Créditos" para o imposto 1-ICMS.
+Alterar o sistema para geração do arquivo DIRF 2019 conforme novo leiaute.
+Atualizar o informativo SPED Contábil para o leiaute 7 conforme Manual de Orientação de 11/2018.
+TO-Atualizar o informativo DIF para a versão 2019.
+RS-Considerar o valor de Outras deduções conf. Dec. 53.348/2018 para o cálculo do imposto 1-ICMS quando a apuração resultar em saldo credor.
+RJ-Gerar o registro 1400 do SPED Fiscal de acordo com a Tabela de Itens UF Índice de Participação dos Municípios RJ.\x0d\x0a
+RS-Ajustar a emissão do valor dos impostos 55-AMPARA-N e 56-AMPARAST no SPED Fiscal conforme disposto na versão 2.07 da Correspondência entre GIA e EFD.
+Atualizar o informativo DMED para que não seja mais informado no arquivo o identificador de estrutura do leiaute.
+RS-Separar a apuração do imposto 9-SUBTRI por UF Beneficiária.
+SP-Ajustar a emissão do Ressarcimento de ICMS ST conforme Portaria CAT 42/2018 no informativo estadual Nova GIA.
+Criar o campo "27-VL_UNIT_RES_FCP_ST" no registro C176 do SPED Fiscal a partir de 01/2019.\x0d\x0a
+MT-Alterar o cálculo do imposto 8-DIFALI para que passe a considerar a tabela de alíquota Interestadual do ICMS.\x0d\x0a
+MG-Preparar o sistema para considerar ajuste por pagamento a maior para o imposto "27-ICMSA" em empresa optante do Simples Nacional
+Alterar o informativo EFD Contribuições conforme guia prático versão 1.28 a partir de 01/2019.
+RS-Implementar o cálculo do ressarcimento ou complemento do ICMS conforme Art. 25-A a 25-C do Livro III do RICMS e conforme Instrução Normativa RE Nº 48 DE 13/11/2018.
+CE-Alterar o sistema para não solicitar o cadastro da AIDF para lançamento de NFC-e espécie 65.
+MG-Alterar o código de ajuste emitido no registro C197 do SPED Fiscal das notas de saída marcado a opção Nota de estorno de crédito de ICMS conforme Art. 73 do RICMS.
+Permitir lançar processos na guia Documentos Referenciados para os modelos emitidos no registro D200 do EFD Contribuições e com isso gerar os registros D111, D209 e 1010 ou 1020.
+MT-Criar uma opção no sistema para calcular o percentual de adicional de ICMS Estimativa Simplificada, adicionando ao valor a recolher e gere no SPED Fiscal.
+MT-Implementar o cálculo do Fundo Estadual de Combate e Erradicação a Pobreza - FECEP.
+BA-Habilitar a opção "Operação não vinculada ao Projeto DESENVOLVE" ao realizar lançamento de ajuste vinculado ao imposto "1-ICMS" e operação "Crédito Ativo Imobilizado".
+Preparar os relatórios e informativos para o tipo de Inscrição CAEPF.\x0d\x0a
+RN-Incluir o código de ajuste RN022010 em Movimentos/Outros/Impostos Lançados/Estadual.\x0d\x0a
+MT-Ajustar a geração do registro E110/E111 do SPED Fiscal para o imposto 08-DIFALI, considerando os dados do pagamento.
+Atualizar para gerar o informativo DEFIS 2019.\x0d\x0a\x0d\x0a
+Corrigir erros de retorno de automação da migração da nova build do Sybase 16.
+Ajustar o Sistema para que seja Possível realizar o lançamento de Entradas e Saidas de NF-e (Mod.55) emitidas por PF(CPF), conforme a Nota Técnica 001/2018.
+PE- Alterar o Sistema para não gerar o Percentual de incentivo do item no arquivo GI-ICMS do informativo SEF 2012 quando o enquadramento for 4-central de distribuição.\x0d\x0a\x0d\x0a
+Otimizar a apuração do imposto 44-SIMPLESN.
+Alterar o sistema para considerar o valor da Base do INSS Mensal, quando importado os valores da folha e houver descontos em folha. 
+Criar dashboards no módulo Escrita Fiscal.
+Adequar a geração da DCTF conforme alteração na tela de pagamentos do LALUR da SAI 55312.
+RS-Redefinir o comportamento do imposto Fundo de Combate a Pobreza Interestadual para que o débito possa ser gerado para a UF de destino da mercadoria.
+Alterar os informativos SPED Fiscal e EFD Contribuições referente a Declaração Única de Importação.
+RJ-Alterar a forma de gerar o código de recolhimento no campo 05-COD_REC dos registros E116 e E250 do SPED Fiscal, conforme Portaria Conjunta SUCIEF/SUAR Nº 01 de 12/2018.\x0d\x0a
+GO-Realizar o cálculo do imposto 27-ICMSA nas empresas do Simples Nacional, conforme Art. 3º, I do Decreto nº 9.162/2018 quando o tipo de cálculo for Lançado por nota.                  
+Não obrigar a informar o Remetente quando o Tipo de Serviço for "Serviço Vinculado a Multimodal" no botão Conhecimento dos CT-es.\x0d\x0a
+Alterar o sistema para que seja gerado o "Endereço Completo" da empresa no informativo DIMOB.
+Atualizar o endereço de consulta do webservice da EFD-Reinf.
+RS-Alterar a forma de gerar o imposto 42-ICMSFG no SPED Fiscal, quando o imposto 1-ICMS estiver com periodicidade quinzenal ou decêndial.
+SP-Permitir realizar o cálculo da Portaria CAT 42/2018 em período anterior a 05/2018 conforme Art. 1, § 1º das Disposições Transitórias.
+SPED-Otimizar a geração do informativo quando ocorre o erro que o disco local não possui espaço livre para geração do registro C190.
+Calcular IOF para empresas com atividade de Factoring
+Alterar o sistema para atualizar o cadastro de Tabela Interestadual do ICMS no OnBalance quando houver alteração, inclusão ou exclusão.
+Realizar a exportação da alíquota de ICMS da tabela do Simples Nacional para o OnBalance.
+Criar campo na tela de baixa de parcelas para informar um histórico de pagamento ou recebimento.
+MG-Criar novos tipos de produtos conforme Regime Especial de Tributação - RET - Portaria nº 001/2014.
+Incluir o botão "Fale com a Tria" de acesso ao Chatbot na tela de consulta de envio do EFD Reinf.
+SC-Alterar a forma de gerar o imposto 31-ST/AT na DIME.\x0d\x0a
+BA-Gerar os campos 05 e 09 do registro C495 do SPED Fiscal quando possuir lançamento de redução Z com produto com valor de Cancelamento.
+DF-Implementar a geração do Bloco B no SPED Fiscal, para contribuintes de ISS domiciliados no Distrito Federal.
+MG-Alterar o cálculo do Crédito Presumido "bares, restaurantes e similares conforme - Art. 75, XVIII e XXXIX do RICMS" para que seja considerado no cálculo a redução de base de cálculo do ICMS.\x0d\x0a
+ES-Criar opção para que o sistema permita efetuar lançamento sem controlar o CFOP por UF.
+Permitir detalhar o número do CEI/CNO na geração do registro S13 do informativo PER/DCOMP.
+SC-Ajustar o quadro 04 da DIME quando possuir devolução e retorno de remessa do crédito presumido TTD 409, 410 ou 411.
+AL-Alterar a geração dos registros de bombas de combustível no informativo DAC.\x0d\x0a
+Desconsiderar o valor do campo "Deduções" da base de cálculo do imposto "38-COSIRF" dos lançamentos realizados em "Movimentos/Serviços"\x0d\x0a
+DF-Gerar em ordem crescente o campo 02 do registro 0450 do Livro Eletrônico, para as notas de denúncia espontânea geradas no arquivo no período da emissão do documento.
+Alterar a forma de recuperar o número do recibo no ambiente REINF.
+PE-Alterar o sistema para gerar fixo no informativo SEF 2012 o código 1-Item sem incentivo do incentivo PRODEPE, quando efetuado lançamento de Devolução e a empresa possuir o tipo de enquadramento "Central de distribuição".
+Criar opção para controlar o intervalo de notas no período e emitir aviso na apuração para as notas que não foram lançadas.
+Ajustar as parcelas do parcelamento especial do Simples Nacional (PERT-SN) para que gere conforme o site.
+PR-Criar opção para não considerar o valor do IPI como valor das operações para o cálculo do imposto 27-ICMSA.
+Permitir gerar a EFD-Reinf para empresas com inscrição diferente de CNPJ.
+Alterar o SPED Fiscal conforme alterações do manual 3.01.
+PE-Gerar o indicador de Sub-apuração no Registro E350, campo 10-IND_AP para o Imposto 145-DIFAL-NC, quando a empresa possuir Prodepe. 
+RS-Não gerar o registro E115 com o código "RS052999" no SPED Fiscal para as notas com CFOP 5-933 e 6-933.
+RS-Alterar o percentual do Crédito presumido estab. abatedores do Programa AGREGAR-RS CARNES - Livro I, art. 32, XI conforme DECRETO Nº 54.451 que revogou a nota 05 do DECRETO Nº 54.044.
+TO-Gerar no segmento M do informativo GIAM as notas de saída com CFOP 5.922.
+SC-Redefinir o comportamento do imposto Fundo de Combate a Pobreza Interestadual para que o débito possa ser gerado para a UF de destino da mercadoria.
+Alterar o sistema para não gerar as informações do INSS Receita Bruta na DCTF Normal quando a empresa gera a DCTFWeb.
+AC-Gerar o código de ajuste AC50000003 para o SPED Fiscal.
+SC-Criar opção no acumulador para calcular o TTD conforme Tabela de incentivo informada nos parâmetros ou acumulador.
+ES-Considerar os lançamentos de Redução Z no informativo DOT.
+SP-Considerar o valor do IPI na base de cálculo do imposto 8-DIFALI.\x0d\x0a
+RJ-Permitir parcelar o imposto 55-FECOP-N.
+MA-Incluir uma nova vigência a partir de 01/2019 na tabela de diferencial de alíquota para empresas optantes do Simples Nacional, conforme art. 4 da Lei 10.956 de Dezembro de 2018
+AL-Habilitar a alíquota do imposto no cadastro do 49-FECOEP.
+Alterar sistema para que seja possível gerar no REINF os valores de INSS retido sobre os Serviços tomados ou prestados por segurados em condições especiais.\x0d\x0a
+Corrigir erros de retorno de automação da migração da nova build do Sybase 16.
+RJ-Alterar sistema para não gerar o registro C191 no arquivo do SPED Fiscal.
+RS-Considerar que as notas de saída com modelo 65-NFC-e são saídas a consumidor final no cálculo do ressarcimento ou complemento do ICMS conforme Art. 25-A a 25-C do Livro III do RICMS.
+Atualizar a emissão do DAS conforme versão 2.0.0 do PGDAS.
+MT-Criar rotina para cálculo e contabilização do fundo IAGRO no imposto 50-FETHAB.
+Alterar sistema para que seja possível informar no EFD-Reinf se a retenção de INSS é referente Obra de Construção Civil com Empreitada Total ou Empreitada Parcial.
+Permitir relacionar mais de um CNO para o mesmo fornecedor/cliente e o mesmo CNO para fornecedor/cliente diferentes na tela "INSS Retido em Obra de Construção Civil - REINF".\x0d\x0a
+RS-Alterar o cálculo do montante do imposto presumido no cálculo do ressarcimento ou complemento do ICMS conforme Art. 25-A a 25-C do Livro III do RICMS.
+Otimizar o processo de apuração de impostos na etapa "Estoques".
+Otimizar o processo de integração contábil.
+Calcular IOF para empresas com atividade de Factoring
+GO-Habilitar as definições do imposto 27-ICMSA no acumulador para empresas do simples nacional.
+Incluir opção no cadastro de fornecedores para identificar se possui tributação sobre a folha de pagamento, para gerar no eSocial.
+ES-Permitir utilizar o saldo credor do imposto 1-ICMS para abater o débito do imposto 8-DIFALI.
+MT-Criar opção para deduzir o valor do ICMS ST proporcional aos produtos no cálculo do imposto 128-ICMS ES-Carga Média.\x0d\x0a
+PE-Gerar o código do incentivo do PRODEPE vinculado ao produto nos registros do informativo SEF 2012, quando a operação for não incentivada.
+BA-Alterar o informativo DMA para não gerar os registros 65 até 75 (quando cliente  diferente de BA e destino igual BA) e os registros 76 até 86 (quando cliente igual a BA e destino igual BA).
+PR-Considerar a opção "Apropriar o crédito de ICMS em 1/48 a partir do mês de início efetivo das atividades" criada no cadastro do Bem no módulo Patrimônio.
+Alterar os campos do sistema para informar a placa de veículo conforme a nova definição de nomenclatura do Mercosul.
+Permitir lançar notas emitidas por CPF quando a empresa possuir inscrição CEI ou CAEPF.
+Incluir itens na tabela de CNAE 2.3 conforme resolução CGSN Nº 143.
+SP-Alterar cálculo do Ressarcimento/Complemento do ICMS ST conforme Portaria CAT 42/2018 para que considere o percentual de redução de base de cálculo do produto.
+Alterar o comportamento de validações da tela de Posse dos Produtos e permitir efetuar lançamentos permitidos no informativo SPED Fiscal.
+Gerar na DMED no registro RESPO, no campo 07 (Fax), o número do FAX do cadastro do Responsável.\x0d\x0a
+SP-Discriminar o imposto 27-ICMSA lançado para as empresas de Simples Nacional no Livro de Entrada.
+AM-Incluir o código de ajuste AM020020 na tela de lançamentos estaduais e gerar no registro E111 do informativo SPED Fiscal.
+AL-Alterar o sistema para gerar o valor do imposto 49-FECOEP como dedução na apuração do imposto 1-ICMS.
+Criar rotina para permitir incluir manualmente os recibos dos eventos da EFD-Reinf na janela de Consulta de Envio dos Arquivos.
+Criar no Utilitário "Alterar notas" a opção para alterar o Indicativo de prestação de serviços e tipo de serviço EFD-Reinf informado nas notas.
+Incluir botão soluções em algumas mensagens do sistema
+SC-Gerar o arquivo da DCIP com o valor da compensação do ICMS das notas de devolução de compra, referente aos créditos presumidos que se enquadram na apuração separada conforme An.2, Art. 23 do RICMS.\x0d\x0a
+Permitir lançar nota com data de vencimento da parcela e a baixa das parcelas antes da data de emissão da nota para empresas do Regime de Caixa.
+Alterar a apuração do imposto 28-FUNRURAL para estornar os débitos pelas entradas quando o fornecedor possuir tributação pela folha de pagamento.
+Incluir o código de atividade 140 na guia Serviço de Transporte do parâmetros para o cálculo Conforme NCM e Serviços do INSS Receita Bruta.
+Permitir efetuar o cálculo dos impostos pelo Regime da Caixa para empresas optantes pelo Simples Nacional que tenham lançamento de Cupom fiscal eletrônico - CF-e.
+AL-Permitir que o sistema calcule os ajustes lançados como "outros créditos" na apuração do imposto 49- FECOEP.
+PB-Habilitar o campo "Ajuste no SPED" para lançamentos de ajuste para o imposto 1-ICMS e operação "Estorno de débitos".
+GO-Alterar a forma de gerar no SPED o lançamento de cheque moradia, quando a empresa não é beneficiária do Fomentar/Produzir/Microproduzir. 
+RS-Criar opção para identificar as notas que não fazem parte do cálculo do ressarcimento ou complemento do ICMS conforme Art. 25-A a 25-C do Livro III do RICMS e passar a considerar as notas de cliente de outras UF em operações internas no cálculo.
+Incluir a opção de filtro "CST/CSOSN" na janela do Utilitário de "Alterar de Produtos".
+Adaptar o sistema para que não exija a Matricula CNO para apurar o imposto 103-INSS Retido com o código de recolhimento 298506.
+RJ-Gerar o Estorno de Crédito de ICMS com Código de Ajuste "RJ018003" para empresas que possuem Crédito Presumido conforme a Portaria 55 de 19 de Fevereiro de 2019. 
+RS-Alterar o cálculo do ressarcimento do ICMS ST para que considera a Nota 07 do Art. 25-A e a Nota 03 do Art. 25-B do RICMS, incluído pelo Decreto Nº 54.490, DE 23 DE JANEIRO DE 2019.\x0d\x0a
+Criar controle de vigências na guia "Geral" do cadastro de empreendimento imobiliário.
+Criar opção para não somar o valor do IPI na base de cálculo de PIS e COFINS nas compras de produtos no regime não cumulativo e CST de IPI diferente de 00.
+SP-Alterar o cálculo do crédito outorgado de produtos têxteis e gerar o código de ajuste SP10090767 para as saídas com crédito.
+Gerar o registro K100 quando não possuir movimentação ou saldo do produto.\x0d\x0a
+RJ-Gerar os registros C197, 1200 e 1210 do SPED Fiscal quando efetuado transferência de saldo credor entre estabelecimentos da mesma empresa.
+Informativo I-SIMP - Atualização Versão 459 03/2019.
+AL-Criar opção para que o sistema permita efetuar lançamento sem controlar o CFOP por UF.\x0d\x0a
+Criar o campo "Número do Título/Parcela" na guia Parcelas das Entradas e na baixa de parcelas de Entradas/Saídas/Serviços/Cupons Fiscais/Cupom Fiscal Eletrônico.
+RJ-Alterar o cálculo do 31-ST/AT quando não possuir valor de imposto na linha do 01-ICMS.
+RJ-Alterar o sistema para desabilitar a guia "Receita Bruta" do botão Outros Dados do informativo DECLAN-IPM, quando marcada as opções Estabelecimento único no estado, Estabelecimento sem receita no ano-base e "Empresa sem receita no ano-base".\x0d\x0a
+Contabilizar IPI e ICMS ST dos Totais das entradas de forma individualizada 
+MT-Criar rotina para cálculo e contabilização do Fundo CIPEM no imposto 50-FETHAB.
+Alterar o campo 02-NUM_BICO do registro 1370 do SPED Fiscal para gerar o número do bico e não mais o código sequencial.
+Criar opção no botão Contas Analíticas do SPED Fiscal, para gerar no registro C170 a conta contábil informada no cadastro do produto.\x0d\x0a
+RS-Atualizar os códigos do Anexo VA e VB de acordo com a IN RE Nº 013/19.
+Gerar o valor do serviço da nota de entrada para o campo 12 do Registro A100 da EFD Contribuições.
+GO-MS-Implementar no sistema o lançamento de notas de saídas com situação de "Documento regular extemporâneo".\x0d\x0a
+BA-Importar na tela de Valores Agregados do SPED Fiscal, os valores das empresas que tenham exclusões do valor contábil (IPI, ICMS ST), com código BAE05 e BAS05.
+RJ-Alterar a descrição da ocorrência O350008 55-FECOP-N na geração do arquivo e relatório GIA.\x0d\x0a
+RJ-Calcular o Imposto 8-DIFALI para espécies de Transporte em casos que o tipo do imposto seja calculado por produto.
+MT-Implementar o cálculo do FEEF - Fundo Estadual de Equilíbrio Fiscal conforme LEI Nº 10.709, DE 28 DE JUNHO DE 2018 e DECRETO Nº 1.563, DE 29 DE JUNHO DE 2018.
+SC-Alterar para ser demonstrado por nota o imposto 27-ICMSA quando periodicidade estiver "Por Nota".
+Retirar a validação da data de emissão para lançamento de NFC-e com a data de emissão da chave
+Alterar o sistema para que permita efetuar lançamento de Notas fiscais de Serviço de Comunicação (Código 21) e Nota Fiscal de Serviço de Telecomunicação (Código 22) com emitente "Terceiros".
+RS-Gerar em "Outros Créditos" a restituição do Crédito fiscal adjudicado nos termos do Livro III, art. 23, do RICMS, conforme ajuste RS10009906 do SPED Fiscal.
+SP-Gerar na Nova Gia as Notas Fiscais com CFOP 5.929/6.929 quando a opção "Desconsiderar os valores de ICMS das notas com CFOP 5.929/6.959" estiver marcada nos Parâmetros.\x0d\x0a\x0d\x0a
+Criar opção para não deduzir o valor do ICMS desonerado do valor contábil do produto.\x0d\x0a
+RS-Criar tela para informar a última entrada que será utilizada para o cálculo do ressarcimento/complemento do ICMS ST conforme Art. 25-A a 25-C do Livro III do RICMS.
+Migração Escrita para ONVIO - Etapa 1 - Reorganização das bibliotecas
+RS-Criar campo Mont. Imposto Presumido na guia estoque da nota para que os clientes possam importar o SPED Fiscal o valor pronto do registro "1923".
+Adequar o sistema para as mudanças do portal e-CAC no processo de Pagamento de Impostos via e-CAC com código de acesso. \x0d\x0a
+Considerar o valor das notas de saídas com situação Documento fiscal complementar/referenciado para o cálculo dos impostos 6-CSOC e 7-IRPJ-LP, 4-PIS e 5-COFINS, e 44-Simples Nacional, nas empresas com atividade de Revenda de Veículos.
+Incluir o inciso V do § 1º do art. 25 da Resolução 140/2018 na descrição das seções II, III e IV do anexo III do simples nacional.
+Atualizar a tabela de códigos CEST para as NCM 2202.10.00 e 2202.99.00 no cadastro do produto.
+AC-Gerar o Registro E112 no SPED Fiscal quando possuir o Registro E111 e código de Ajuste AC020008.
+RJ-Considerar o percentual de base de cálculo do ICMS informado no cadastro do acumulador para realizar o cálculo do imposto 56-FECOP-SI.
+Criar opção para não gerar as notas de saídas de transferências e remessas de mercadorias no EFD Contribuições.\x0d\x0a
+Alterar para não gerar as notas de entrada com CST 98 e 99 quando a opção Gerar somente as notas de entrada que possuem crédito de PIS/COFINS estiver marcada no EFD Contribuições.
+RS-Gerar o código RS051405 - Anexo V.A - Livro I,10,VI - Transporte de calcário no registro E115 do SPED Fiscal quando utilizado o código 405 no Anexo VA da GIA.\x0d\x0a
+Inserir o botão Soluções em algumas telas do módulo Escrita Fiscal.
+PR-Alterar o sistema para não calcular o crédito presumido de 20% referente as notas de serviço de transporte de Subcontratação.
+EFD-Reinf - Consultar Envio dos Arquivos - MODO TESTE
+RS-Alterar o sistema para informar no imposto 9-SUBTRI, o código de recolhimento do complemento do ICMS conforme Art. 25-A a 25-C do Livro III do RICMS.
+MS-Gerar o registro E112 no informativo Sped fiscal quando realizado lançamento de ajuste com operação "Outros créditos".\x0d\x0a
+RS-Ajustar a geração do ajuste E111 do imposto "55-AMPARA-N" quando o valor do débito for quinzenal ou decendial e competência igual ou anterior a 12/2018.\x0d\x0a
+SC-Calcular o imposto 32-FUNDOSOCIAL para empresa do Regime Simples Nacional, quando ultrapassar o sublimite do Simples Nacional.
+Atualizar Tabela de Países segundo Nota Técnica 2018.003 - v 1.01.
+RS-Realizar o estorno do Complemento/Ressarcimento nas operações de devolução do cálculo conf. Art. 25-A a 25-C do Livro III do RICMS.
+SC-Alterar o sistema para gerar o Ajuste SC029999 no Registro E111, referente ao Crédito Presumido Art 21 de confecção, oriundos de lançamentos de nota com espécie Nota Fiscal de Venda a Consumidor, modelo 02.
+Alterar o sistema para que seja habilitada a opção "Produtor Rural Pessoa Física" no cadastro de Fornecedor e Clientes.
+Não gerar os caracteres especiais aspas duplas " e aspas simples  no campo 04 do registro Tipo 10 do informativo Sintegra.\x0d\x0a
+Implementar opção para emitir a guia GNRE dos impostos 145-ICMS DIFAL - Não Contribuinte e 146-Fundo Estadual de Combate a Pobreza.\x0d\x0a
+RS-Permitir escolher a competência para apuração do crédito sobre levantamento de estoque no cálculo do Complemento/Ressarcimento de ICMS ST conforme Instrução Normativa RE Nº 48 DE 13/11/2018.
+Criar rotina para editar o arquivo do SPED Fiscal na tela de emissão do informativo.
+RN-Incluir o código de ajuste RN033003 em Movimentos/Outros/Impostos Lançados/Estadual.\x0d\x0a
+GO-Alterar o cálculo do estorno do crédito excedente conforme IN 1.237/15, passando a considerar a operação interna com alíquota superior a 11%.
+MT-Recolher os fundos IMAmt e FABOV separado do imposto 50-FETHAB, com código de recolhimento próprio.
+RO-Incluir em movimento de Impostos Lançados Estaduais o código de ajuste RO020033 - Crédito mudança de tributação - Art. 48 - anexo VI do RICMS.
+Incluir os novos CFOPs conforme AJUSTE SINIEF 07, de 05 de Abril de 2019.
+MT-Alterar o comportamento do imposto 50-FETHAB nas devoluções de venda, quando o imposto estiver sendo calculado Por produto.
+ES-Alterar livro fiscal "Registro de Inventário" de acordo com modelo do site da SEFAZ.
+RJ-Alterar o SPED Fiscal para gerar os ajustes da tabela 5.2 Valores Declaratórios do ICMS quando possuir valor informado de ICMS desonerado conforme Portaria SUCIEF n° 055/2019.
+Alterar o sistema para que as rotinas de "Consultar NF-e" e "Emitir Danfe" da tela Entradas/Saídas sejam adequadas ao novo leiaute do Portal NFe.
+PE-Alterar para gerar no SEF 2012 o CPF do responsável legal quando a inscrição da empresa for C.A.E.P.F.
+SP-Alterar geração da Nova GIA para que os lançamentos com fornecedor agropecuário e CFOP 1.922 não sejam gerados no DIPAM-B.\x0d\x0a
+PR-Incluir o código PR020094 em "Movimentos/Outros/Impostos Lançados/Estadual".
+RR-Gerar o quadro "J - Estoque" do informativo GIM na competência de Fevereiro.
+PE-Calcular o imposto 27-ICMS Antecipado, conforme o Decreto 47.154 de 2019.\x0d\x0a
+RS-Não gerar o registro E115 com códigos "RS051xxx" e "RS052xxx" no SPED Fiscal para CFOPs 5932/6932 lançados com valor em Isentas e/ou Outras.
+Alterar a apuração do imposto 28-FUNRURAL para não estornar os débitos pelas entradas referente a Outras Entidades (Senar) quando o fornecedor possuir tributação pela folha de pagamento.
+RS-Alterar o cálculo do ressarcimento do ICMS ST onde considera a Nota 07 do Art. 25-A e a Nota 03 do Art. 25-B do RICMS, para que o sistema verifique as notas emitidas até 30/06/2019, conforme Decreto Nº 54.659, DE 2 DE JUNHO DE 2019. \x0d\x0a
+RS-Criar na tela de Dados de impostos por NCM e no Utilitário de Alterar Produtos, o campo para alterar o percentual de base de cálculo do Produto incluído no cálculo do ressarcimento/complemento do ICMS ST conf. Art. 25-A a 25-C, Livro III do RICMS.
+Adequar o sistema às alterações no link de acesso para emissão da guia DAS.
+RS-Alterar o registro 1400 do sped fiscal para considerar o valor total dos bilhetes de passagem.
+Criar itens para controle de custos no módulo Honorários.
+SC-Adaptar o sistema para permitir dividir o  Crédito de ICMS antecipado no desembaraço aduaneiro (TTD) em relação aos débitos de ICMS normal e ICMS Crédito Presumido.\x0d\x0a
+Incluir coluna para definição de Acumulador, no botão Outros Dados, guia Contas, no Registro C191/C195 da tela de geração do arquivo EFD Contribuições.\x0d\x0a
+RJ-Atualizar os códigos de ajustes no registro E111 do SPED Fiscal, conforme item 9.17 da Portaria SUCIEF n° 055/2019, para empresas do Regime especial de tributação do ICMS - Política de Recuperação Industrial Regionalizada.
+Permitir alterar o valor a ser deduzido no cálculo do Simples Nacional quando efetuada uma devolução de venda.
+SP-Alterar os registros 1100 e 1200 do arquivo de Controle de Estoque Portaria CAT 42/2018, gerando sem informação nos campos "ICMS_TOT" e "VL_CONFR" conforme a operação e enquadramento legal.
+RS-Gerar o registro 1922 do SPED Fiscal conforme itens 19.2.1 e 19.3.2 da IN DRP nº 045/98.
+Alterar o sistema para gerar o registro C600 do EFD Contribuições para as notas de saída de energia elétrica com modelo 55-NF-e.
+SP-Alterar a descrição da ocorrência Valor destinado ao Programa Incentivo ao Esporte - PIE em lançamento de Outros Créditos de ICMS.
+BA-Gerar o código de ajuste "BA050004" para o valor a recolher do imposto 27-ICMSA e alterar a descrição complementar no SPED Fiscal.
+Criar no Utilitário de Alterar notas de saída, opção para alterar a informação do campo Consumidor Final.
+MG-Habilitar o campo "Ajuste no SPED" para lançamentos de ajuste para o imposto 9-SUBTRI e operação "Outros créditos"\x0d\x0a
+MT-Ajustar a escrituração do informativo SPED Fiscal, referente as notas de entradas com o imposto 8-DIFALI e vinculadas as espécies de transportes.
+SP-Gerar os registro 0460/C195/C197 com o código "SP90090104" para os modelos 65- NFC-e conforme CAT 66/2018.
+Incluir opção para informar qual a data será considerada como fato gerador para o imposto 26-INSS Retido na entrada.
+SC-Implementar o Demonstrativo para Apuração Mensal do Ressarcimento, da Restituição e Complementação do ICMS Substituição Tributária (DRCST), conforme a Portaria SEF N° 378/2018.
+Criar opção na guia DARF Normal para publicar e anexar a mesma diretamente no Domínio Atendimento do cliente do escritório.
+SC-Implementar geração nos relatórios e informativos dos valores apurados na DRCST.
+Calcular a redistribuição do ISS no Simples Nacional quando o imposto estiver configurado com "Isenção", "Exigibilidade Suspensa" ou "Lançamento de ofício" na faixa 6.
+MT-Alterar a base de cálculo do 08-DIFALI para somar o IPI.
+PA-Emitir Termo de Abertura e Encerramento para Livro LMC para cada produto.\x0d\x0a\x0d\x0a
+SP-Gerar no SPED Fiscal mais de um E113 para o mesmo E111 informando mais de uma nota nos ajustes estaduais.
+Validar a vigência do acumulador informado no botão "Acumulador do pagamento", "Acumulador da parcela" e "Simples Nacional" dos lançamentos com parcelas antes da data de emissão da nota para empresas do Regime de Caixa.
+SC-Criar opção no parâmetros para que seja efetuada a apuração do "Crédito Presumido nas vendas interest. a consumidor final não contribuinte do ICMS - An2, Art. 21, XV" no estabelecimento centralizador.
+Permitir Concluir uma Ordem de Produção, sem informar a quantidade e sem componentes, para que seja gerado o campo 06 do registro K230 zerado, e não gerar o registro K235 no SPED Fiscal.\x0d\x0a\x0d\x0a\x0d\x0a
+Considerar os valores de Frete, Seguro e Despesas Acessórias para gerar nos Registros C100, C170 e C396 do informativo EFD Contribuições, quando há devolução de compras no período.
+SPED Fiscal-Otimizar a importação dos valores agregados.
+Alterar a importação do botão "INSS-RET Construção Civil" da EFD-Reinf para que considere os indicativos de prestação de serviço.
+RJ-Gerar no informativo DeSTDA o valor do imposto 8-DIFALI quando calculado por produto.
+RS-Criar os botões "Incluir" e "Excluir" na janela "Levantamento de estoque das empresas varejistas - Instrução Normativa 48/2018". 
+MA-Alterar o sistema para não gerar o registro 53 no informativo Sintegra e DIEF-Sintegra para o imposto 27-ICMS Antecipado.
+Ajustar as guias da tela do cadastro de Empreendimentos Imobiliários e do cadastro de Operações.
+RJ-Ajustar a versão do informativo Declan-IPM para 3.2.0.3
+ES-Implementar o cálculo do ICMS referente ao adicional nas operações beneficiadas pelo COMPETE-ES, de acordo com art. 1.212 RICMS/ES\x0d\x0a
+RS-Alterar a forma de gerar no SPED os créditos presumidos conforme o Decreto 54.577/19.
+RO-Implementar o cálculo do Crédito Presumido Operações de saída interestadual de mercadoria importada do exterior - LEI Nº 1.473/2005
+PI-Criar opção para que o sistema permita efetuar lançamento sem controlar o CFOP por UF.\x0d\x0a
+RS-Ajustar a emissão das Reduções Z - Modelo 2D e das notas modelo 02-Nota Fiscal de Venda a Consumidor Final no registro 1923 conforme disposto na Instrução Normativa nº 06/2019.
+RS-Atualizar o código do Anexo VA de acordo com a IN RE Nº 001/19.
+SP-Alterar a versão do informativo Controle de Estoque Portaria CAT 42/2018 conforme leiaute 1.1d.
+Efetuar a consolidação do parcelamento PERT - Simples Nacional após o pagamento da entrada, com redução de multa/juros.
+Incluir verificações no campo 02-COD_INC_TRIB do registro 0110 do EFD Contribuições para os lançamentos efetuados na tela Ajustes de PIS/COFINS
+Criar rotina para editar o arquivo do EFD Contribuições na tela de emissão do informativo.
+Não adicionar o valor de SUBTRI da Nota de Devolução de Venda para os campos "VL_MERC" e "VL_ITEM" dos registros C100 e C170 da EFD Contribuições e SPED Fiscal.\x0d\x0a\x0d\x0a
+CE-Alterar o sistema para não gerar o registro C170 do SPED Fiscal para empresas do Simples Nacional Perfil B, conforme IN 14/2017.
+DF-Alterar o sistema para não gerar valores no bloco E do Livro Eletrônico quando no período possuir somente lançamentos com ISS em empresa do Simples Nacional.
+Implementar o modelo Nota Fiscal de Energia Elétrica Eletrônica, modelo 66
+AC-Gerar o registro 1400 do SPED Fiscal de acordo com a Tabela de Itens UF Índice de Participação dos Municípios AC.
+Atualizar os códigos do Registro E220 do SPED Fiscal, para os lançamentos de Ajuste com Operação Estorno de débitos, Estorno de créditos, Outros Créditos, Outros Débitos e Outras Deduções, para o imposto 9-SUBTRI e Estado de "ES".
+RS-Alterar o sistema para que seja possível realizar a compensação de saldos do cálculo de Ressarcimento/Complemento na apuração do ICMS Próprio conforme Decreto 54.671 de 14 de junho de 2019.
+RS-Realizar o estorno do Complemento/Ressarcimento nas operações de devolução do cálculo conf. Art. 25-A a 25-C do Livro III do RICMS, também para o CFOP 1.662.
+RS-Alterar o cálculo do Ressarcimento do ICMS ST para combustíveis de forma que considere a "Nota 08" do Art. 25-A e a "Nota 04 do Art. 25-B, incluído pelo Decreto 54.670/2019.
+Criar opção nas Rotinas automáticas para pagamento de impostos via e-cac.
+Calcular o crédito de PIS e COFINS de bebidas frias para empresas sujeitas ao regime não cumulativo - Lei 13.097/2015, Art. 30 considerando a alíquota correspondente para Fornecedor optante pelo Simples Nacional.\x0d\x0a
+SC-Implementar geração nos relatórios e informativos dos valores apurados na DRCST - Parte 2.
+Alterar para gerar no SPED fiscal o CST 041 e 060 quando o CSOSN informado na nota for 300, 400 ou 500 para empresas do simples nacional.
+PR-Implementar o cálculo do estorno de ICMS antecipado de transporte e gerar o código de ajuste PR20001003 no SPED Fiscal.
+Otimizar a geração do EFD Contribuições a partir da segunda geração do arquivo EFD.
+Criar uma opção para que ao realizar Pagamentos de impostos e-Cac, seja possível consultar e pagar os impostos de todos os módulos.
+MG-Criar novos sub-grupos para o cálculo do Regime Especial de Tributação - RET.
+MG-Ajustar o informativo DAPI conforme versão 9.01.00
+RS-Alterar para não gerar descrição complementar no registro E250 do SPED Fiscal quando possuir saldo de complementação do 09-SUBTRI.
+Criar opção para controlar o intervalo de cupons fiscais eletrônicos no período e emitir aviso na apuração para os CF-es que não foram lançados.
+RS-Aplicar o percentual de redução previsto na tabela do Simples Nacional para o anexo III, seção V, independente da UF de origem.
+SP-Alterar o comportamento do cálculo do Ressarcimento do ICMS conforme Portaria CAT 42/2018 para que considere as movimentações com produtos compostos.
+MT-Gerar para o informativo SPED Fiscal o valor do imposto 128-ICMS ES conforme Decreto 1599/2018, para empresas optantes pelo Simples Nacional que ultrapassou o sub-limite.
+DF-Gerar o arquivo do Livro Eletrônico conforme IN SUREC nº 07, de 25 de setembro de 2009 para notas com ISS.
+SP-Alterar para gerar na DeSTDA o valor do imposto 116-ICMSDIF lançados nas notas de entradas.
+RN-Incluir o código de ajuste RN022112 em Movimentos/Outros/Impostos Lançados/Estadual.
+MG-Alterar o informativo Sintegra para gerar o CT-eOS nos registros 70 e 71. 
+Gerar o registro R03 da DIMOB com as informações de todos os clientes envolvidos quando efetuada a troca de clientes em renegociação.
+PR-Alterar o campo 03 do registro E115 do sped fiscal, para que seja gerado o valor do ICMS que está sendo dispensado (desonerado).
+SC-Implementar o Demonstrativo para Apuração Mensal do Ressarcimento, da Restituição e Complementação do ICMS Substituição Tributária (DRCST), conforme a Portaria SEF N° 378/2018.
+Alterar o sistema para gerar o registro G125, G130 e G140 para Bens cadastrados como Imobilizado em Andamento quando possuir cálculo para o bem resultante.\x0d\x0a
+SP-Alterar o sistema para que considere o ICMS das entradas de Energia Elétrica para Dedução da Base de Cálculo do imposto 70-CFEM.\x0d\x0a
+Permitir lançar notas emitidas com CNPJ quando a empresa possuir inscrição CEI ou CAEPF.\x0d\x0a
+Alterar o registro 1900 do EFD Contribuições para gerar o valor dos contratos do período que está sendo gerado o arquivo.
+MS-Implementar o cálculo do FUNDERSUL, conforme Lei 1.963/99 e do FUNDEMS, conforme Lei nº 3.984/2010.\x0d\x0a
+RS-Realizar o estorno do débito da devolução de compra do imposto 27-ICMSA para empresas do Simples Nacional.
+SP-Criar opção para identificar as notas de entradas que não fazem parte do cálculo de ressarcimento ou complemento - Portaria CAT nº 42/18.
+Considerar os lançamentos de Reduções Z - Modelo 2D no cálculo do imposto 28-FUNRURAL para empresas que tenham a inscrição no CNPJ.\x0d\x0a
+DF-Preparar o sistema para gerar o arquivo do SPED Fiscal para empresas do DF.
+RS-Criar o grupo "ICMS Efetivo" na guia Estoque da nota para que os clientes possam importar os valores prontos.
+SC-Otimizar a apuração do imposto ICMS quando a empresa possui o crédito presumido do ICMS TTD 409, 410 e 411\x0d\x0a
+Otimizar listagem de produtos no levantamento de estoque das empresas varejistas - Instrução Normativa 48/2018.
+RR-Alterar o cálculo do imposto 8-DIFALI para que passe a considerar a tabela de alíquota Interestadual do ICMS.\x0d\x0a
+Incluir campo para informar o valor do acréscimo pela SELIC na baixa do parcelamento de ICMS.
+Alterar o cálculo do imposto 103-INSS-RB e do 26-INSS Retido quando possui adicional de retenção.
+PI-Implementar o cálculo do Fundo Estadual de Combate à Pobreza - FECOP, conforme a Lei Nº 5.622/2006.
+Disponibilizar a opção de informar o CNO para as atividades 95, 96, 97 ou 98 vinculadas a Obras com matricula CEI até 30/11/2015.
+RS-Alterar o cálculo do imposto 31-ST/AT para empresas do simples nacional para não considerar o IPI quando não possuir valor de ICMS.
+Criar opção no acumulador para não deduzir o valor do pedágio da base de cálculo dos impostos PIS e COFINS.
+Permitir informar até 15 caracteres no campo Valor Unitário do produto produzido/desmontado, da tela de Conclusão da Ordem de Produção/Desmontagem.
+Alterar a geração do evento R-1000 quando selecionada opção de situação especial no botão Outros dados.
+MS-Gerar o registro E113, quando houver informações de ajustes no E111, e o código do ajuste for MS039999.\x0d\x0a
+PR-Gerar o registro E113 no SPED Fiscal, quando realizado lançamento de ajuste com código SPED PR023050.
+RS-Alterar o sistema para gerar os registros E112 e E113 do SPED Fiscal para os impostos 42-ICMSFG e 98-ICMSA-TR.
+RS-Efetuar o reconhecimento contábil dos valores da Sub-Apuração do Ressarcimento/Complemento do ICMS ST.
+RS-Alterar o sistema para permitir o lançamento de ajuste RS020301 através da tela de Impostos lançados.
+Criar rotina para preenchimento dos dados da DU-E - Declaração Única de Exportação nas notas fiscais de saída.
+SC-Considerar as devoluções de venda, no cálculo da proporção das saídas tributadas de produtos derivados de leite in natura, conforme RICMS An2, Art. 15, X.
+TO-Gerar o registro E113 do SPED Fiscal para os créditos e estorno de crédito na aquisição de mercadorias de empresa do Simples Nacional.
+MS-Implementar a apuração Semanal para o 1-ICMS e a geração dos registros E100, E110 e E116 Semanal para o ICMS, FUNDERSUL e FUNDEMS.
+Gerar o registro A170 do EFD Contribuições para notas de Entrada que não tem a incidência dos impostos PIS Não Cumulativo e COFINS Não Cumulativo, quando for lançado nota segmentada e em um segmento tenha incidência dos impostos e em outro segmento não.
+Alterar o nome do arquivo que é gravado as guias DAS Online e DARF Online no BD.
+RS-Gerar o valor total dos lançamentos de Bilhetes de Passagem no registro E115 do código RS000031 do SPED Fiscal.
+Ajustar a tela de Consulta Apuração Previdenciária para não somar os débitos pelas entradas referente ao Funrural, quando o fornecedor possuir tributação pela folha de pagamento.\x0d\x0a\x0d\x0a
+Alterar o sistema para que o campo Valor da contribuição previdenciária retida da tela Receita de Espetáculo Desportivo seja calculado automaticamente a 5% conforme manual do EFD-Reinf.
+PE-Gerar o registro 1400 do SPED Fiscal de acordo com a Tabela de Itens UF Índice de Participação dos Municípios PE.
+AC-Gerar o registro E110 no SPED Fiscal para empresas do Simples Nacional.
+RS-Criar o campo CST na tela de levantamento de estoque- Varejistas para que o usuário possa alterar o CST a ser gerado no H020 do SPED Fiscal.\x0d\x0a
+SP-Gerar os registros C100 e C190 do SPED Fiscal quando a opção "Desconsiderar os valores de ICMS das notas com CFOP 5.929/6.929" estiver selecionada no Parâmetros.
+RJ-Atualizar os códigos de ajustes no registro E111 do SPED Fiscal, conforme item 9.17 da Portaria SUCIEF nº 055/2019, para empresas do Regime especial de tributação do ICMS - Estabelecimentos Industriais do setor têxtil.
+Considerar apenas 6 dígitos no número do documento de NFC-e, modelo 65 na geração do informativo Sintegra.
+RS-Alterar a ordem para considerar a última entrada no cálculo do Complemento/Ressarcimento do ICMS ST, considerando a data de emissão dos lançamentos efetuados em "Movimentos/Estoque/Últimas entradas - IN 48/2018" e "Movimentos/Entradas".
+DF-Alterar o cálculo do Regime Bares, Restaurantes e Similares, gerar o registro E112 para ajustes com código DF020435 e gerar os registros E115 para empresas do Regime Especial - Lei nº 5.005/2012.
+GO-Gerar apenas a data final no livro do inventário no Pedido de Autenticação de Livros Fiscais.
+RS-Abater a anulação de frete do débito para o cálculo do crédito presumido de 20% para transportadoras - Convênio ICMS 106/96.
+RS-Atualizar a geração do registro E115 do SPED Fiscal conforme Anexo V.A.
+Incluir opção para informar qual a data será considerada como fato gerador para o imposto 26-INSS Retido das Notas de Saída/Serviço.
+RS-Alterar o registro E210 do SPED Fiscal quando no período não for gerado o Anexo VII na GIA.\x0d\x0a
+DF-Gerar os registros B470 e E110 no arquivo do SPED Fiscal mesmo que a empresa não seja contribuinte do ICMS ou ISS.
+PI-Gerar o informativo Estadual DIEF com tipo de declaração retificadora.\x0d\x0a
+Gerar as informações complementares de notas com espécie Documento não fiscal no campo 12 do registro 1900 do EFD Contribuições, para as empresas com o regime "Lucro Presumido".
+PR-Atualizar a relação de ajustes disponíveis na coluna Valores declaratórios conforme tabela de código de benefício fiscal.
+RS-Limitar o crédito presumido nas saídas internas de sucos de uva - Livro I, Art. 32, XCIV.
+RJ-Atualizar a relação de ajustes disponíveis na coluna Valores declaratórios conforme tabela de código de benefício fiscal.\x0d\x0a
+DF-RS-Permitir efetuar lançamentos com o imposto 27-ICMSA quando o valor contábil for diferente da nota.
+RS-Permitir lançar os ajustes "Compensação de Ressarcimento apurado conf. Art. 25-A a 25-C do Livro III do RICMS" e "Compensação de Complemento apurado conf. Art. 25-A a 25-C do Livro III do RICMS" com competência igual ou posterior a 03/2019 conforme Decreto n° 54.766/2019.
+SC-Alterar o sistema para que o cálculo do TTD 409, 410 e 411, quando houver redução na base de cálculo do ICMS, o sistema resulte no cálculo efetivo sobre o valor integral.\x0d\x0a
+DF-Gerar no sped fiscal os registros 0460 e C195 com os códigos 5005VI e 5005 da Lei nº 5.005/2012.
+RS-Implementar rotina para geração do código de ajuste RS40001413 no SPED Fiscal.
+SP-Considerar o percentual de redução informado no cadastro do acumulador, para encontrar a base de cálculo do imposto 116-ICMS Diferido.
+DF-Alterar a base de cálculo do imposto 56-FECOP-ST.
+MA-Implementar o crédito presumido de 20% para as empresas de serviço de transportes - Convênio ICMS 106/96 e Anexo 1.5, Art. 1º, Inciso IX do RICMS
+DF-Alterar o sistema para gerar no campo 04 do registro B440 conforme o campo 12 dos registros B020 no Sped Fiscal.
+PB-Habilitar o lançamento dos bilhetes de passagem para empresas da Paraíba.
+Criar opção para não considerar saldo credor de retenções de períodos anteriores no cálculo de PIS e COFINS cumulativo.
+Criar opção para importar do e-Cac o pagamento dos impostos não calculados pelo sistema e gerar as informações dos pagamentos na DCTF.
+SC-Adaptar o sistema para permitir dividir o Crédito de ICMS antecipado no desembaraço aduaneiro (TTD) por meio da tela de pagamentos, em relação aos débitos de ICMS normal e ICMS Crédito Presumido.\x0d\x0a
+Gerar o valor do IPI destacado na nota de Entrada com CST 49, nos campos "VL_MERC" e "VL_ITEM" dos registros C100 e C170 do SPED Fiscal quando contribuinte sem direito a crédito.\x0d\x0a
+RS-Gerar os registros E112/E113, E230/E240 do SPED Fiscal referente a lançamentos de ajuste de Impostos Lançados e referente à valores que forem pagos no mês de referência/fato gerador e não pagos, dos impostos 09-SUBTRI, 31-ST/AT, 45-ICMSI, 55-AMPARA-N, 56-AMPARA-ST.
+Habilitar o botão [...] da coluna SPED na baixa das parcelas, quando o valor total de desconto for igual ao valor da parcela.
+Criar opção de excluir os eventos na tela de "EFD Reinf - Consulta Envio dos Arquivos" do Reinf.
+Permitir vincular acumuladores em parcelas não recebidas do Simples Nacional quando há troca de regime em competência diferente de dezembro.
+Atualizar a versão do navegador CefSharp/Chromium no Dominio Contabil.
+DF-Alterar o SPED Fiscal para gerar o registro C197 para os impostos 55-FECOP-N, 57-FECOP-DI e 94-FECOP-IA.
+Permitir efetuar lançamento de "Bilhete de passagem eletrônico - BP-e - Modelo 63" com a CST 06 para PIS/COFINS.
+Criar opção para considerar o percentual de base de cálculo sobre receitas financeiras no cálculo do IRPJ e CSLL.
+DF-Gerar o código de ajuste DF010231 para estornar o crédito de ICMS nas empresas do simples nacional.
+RS-Implementar o cálculo do ICMS aos contribuintes submetidos ao REF, conforme Art. 4º, II do Decreto 48.494/2011.
+MG-Calcular ISS para profissional habilitado conforme tabela progressiva para Município de Belo Horizonte.\x0d\x0a\x0d\x0a
+RS-Criar mensagem informando que a opção "Compensar saldo credor anterior do ICMS Subst. Tributária no ICMS Próprio" não poderá mais ser utilizada a partir de 07/2019.
+MT-Incluir o fundo IMAFIR para ser calculado separado do imposto 50-FETHAB, com código de recolhimento próprio.
+SP-Alterar o cálculo do imposto 31-ST/AT quando possuir mais de uma linha no lançamento da nota.\x0d\x0a
+MT-Alterar o cálculo do imposto 154-FEEF para não considerar o valor da Substituição Tributaria para a apuração do Débito pelas entradas e Estorno de Débitos devolução de compras.
+Alterar o relatório Demonstrativo do IRPJ/CSLL, para demonstrar a base de cálculo apurada sobre a Receita Bruta.
+Alterar a forma de gerar o campo "02-COD_ITEM_COMP" do registro 0210 do SPED Fiscal.
+MA-Gerar o registro E111 correspondente ao crédito do Ativo Permanente no informativo Sped Fiscal.
+Permitir informar o CST 05 de PIS e COFINS para lançamentos com os impostos 140-PISNC/CR e 141-COFNC/CR.
+RS-Não considerar CFOP ao realizar o estorno do Complemento/Ressarcimento nas operações de devolução do cálculo conf. Art. 25-A a 25-C do Livro III do RICMS.\x0d\x0a
+RS-Alterar o sistema para gerar o débito de ICMS (exportação) via registro E220 com o código de ajuste RS151506 e também listar as operações no registro E240.
+TO-Ajustar o cálculo do crédito presumido da Lei 1.201/2000 a partir de 08/2019 conforme 3.497/2019.
+Criar opção no utilitários de alteração de produtos para desmarcar a opção Produto sujeito a tributação de PIS e COFINS co incidência da:" para empresa do Simples Nacional
+PE-Gerar no SPED Fiscal e SEF 2012 o valor dos produtos que possuem incentivo PRODEPE enquadramento 4-Central de Distribuição, quando a operação for não incentivada.
+SP-Alterar o sistema para quando houver nota segmentada, passe a gerar um registro C195/D195 e C197/D197 do SPED Fiscal para cada segmento, se estes possuírem valores de Isentas, Outras e/ou ICMS ST conforme CAT 66/2018.
+Criar campo ICMS Desonerado na guia estoque das notas de entradas e no quadro Totais das notas de saídas e entradas.
+MT-Permitir informar até 13 caracteres no campo DAR da tela de seleção para cálculo do Garantido Integral.
+Incluir coluna para definição de CFOP, no botão Outros dados da geração do EFD contribuições" guia Contas nos registros C481/C485, C870/C880 e Demais Registros.
+DF-Alterar o comportamento do campo 5 do registro E350 do Livro Eletrônico quando gerado os valores do imposto 145-DIFAL-NC das demais UFs (UF destino).
+Preparar o sistema para a integração contábil de empresa que gera Livro Caixa Digital do Produtor Rural - LCDPR.
+DF-Gerar o SPED Fiscal conforme Instrução Normativa SUREC nº 07, de 25 de setembro de 2009 para notas com ISS.\x0d\x0a\x0d\x0a
+Criar a opção no sistema para fazer o "Fechamento" por dia.
+Gerar o informativo DIF - Papel Imune conforme Lei nº 11.945/2009, IN nº 976/2009 e IN 1.064/2010.
+MA-Habilitar o lançamento dos bilhetes de passagem para empresas do Maranhão.\x0d\x0a
+Efetuar a contabilização da apuração previdenciária.
+SC-Realizar o cálculo do "Crédito Presumido Material Reciclável - An2, Art. 21, XII" por produto.\x0d\x0a
+RJ-Implementar o crédito presumido do incentivo RIOLOG conforme a Lei 4.173/03.
+DF-Alterar a escrituração do SPED Fiscal para notas com ISS.
+Alterar a geração do evento R-2020 quando possuir o mesmo CNO para clientes diferentes.
+EFD-Otimizar o processo de geração do arquivo no script dos registros C110 e C175.
+SC-Alterar o sistema para considerar os lançamentos de Redução Z - Modelo 2D no cálculo do Crédito Presumido para produtos derivados do Leite, conforme RICMS anexo 2 art.15 XIV.
+SP-Não permitir efetuar lançamento de ajuste com Subitem 216 e 806 da Nova GIA/SP, conforme a alteração da vigência dos códigos SP000216 e SP030806 do SPED Fiscal.
+PR-Alterar a descrição do ajuste PR020062 no registro E111 do SPED FISCAL.
+RS-Calcular os impostos 55-AMPARA-N e 56-AMPARAST para lançamentos de devolução de venda e retorno de remessa.
+Alterar a consideração de receita bruta global no Simples Nacional quando o sócio seja administrador de uma das empresas, mas não é o responsável legal.
+RN-Incluir o ajuste RN029030 em Movimentos/Outros/Impostos Lançados/Estadual.
+MG-Implementar o cálculo da complementação ou restituição do ICMS Substituição Tributária, conforme Art. 31-A a 31-I, Anexo XV do RICMS.
+MG-Alterar o sistema para não utilizar o valor pago do imposto 27-ICMSA como crédito na apuração do imposto 1-ICMS, quando efetuado troca do regime de apuração do Simples Nacional para Normal.
+MT-Importar na tela de Valor Agregados do Sped Fiscal os lançamentos de Bilhetes de Passagem, modelo 63.
+MG-Alterar para não considerar o valor do imposto 96-FEM no cálculo do Regime Especial de Tributação - RET.
+Permitir lançar dedução para a base de cálculo do ISS no Simples Nacional no Anexo II, Seção IV.
+PR-Criar opção no acumulador para definir se a operação entra ou não para o cálculo do crédito presumido de 20% para transportadoras.
+GO-Implementar a integração contábil do imposto 27-ICMSA por apuração para empresas optantes do Simples Nacional.
+SP-Alterar a consideração do sistema quanto a base de cálculo utilizada para apuração do Crédito ICMS recebido antecipado para empresa Atacadista.
+SC-Criar tela pra informar as últimas entradas para compor os registros 2120 e 2130 do DRCST.
+Alterar o sistema para que seja gerado o código Identificador do Tanque no campo 5.1 do Livro de Movimentação de Combustíveis - LMC.\x0d\x0a
+RJ-Atualizar a relação de ajustes disponíveis para informar na guia "Estoque" coluna "Valores declaratórios" conforme tabela de código de benefício fiscal.\x0d\x0a
+AP-Implementar o cálculo do crédito presumido nas entradas para empresas estabelecidas nos municípios de Macapá e Santana - ALCMS.\x0d\x0a
+CE-Ajustar o calculo das transferência de ICMS entre empresa matriz e filial, conforme Art. 59-A do RICMS. 
+MG-Importar os valores de Abono Pecuniário para o campo valor da folha de pagamento nos informativos SPED Fiscal e DAPI.
+SC-Alterar o sistema para não realizar mais o cálculo do crédito presumido do inciso XXIX do Anexo 2 do RICMS SC a partir de 01/08/2019.\x0d\x0a
+MG-Gerar o registro C197 com o código MG91990000 para lançamento de entrada com o imposto 09-SUBTRI lançado por produto.
+DF-Gerar o registro 0450 do Livro Fiscal Eletrônico para os lançamentos de Outras deduções do ISS.\x0d\x0a
+Criar no Utilitários Alterar produtos para cálculos de PIS e COFINS no Movimento nas notas de devolução a opção de alterar o CST pelo Lote.
+SP-Gerar o Registro E112 no SPED Fiscal quando efetuado lançamento de ajuste com o Subitem 744.
+SP-Alterar a dedução dos lançamentos de Entrada com CFOP 1-301, 2-301 e 3-301 para geração do Registro 1400 do SPED Fiscal.
+Alterar o sistema para informar a "Situação especial" de cada SCP ao gerar o arquivo EFD Contribuições.
+MG-Gerar os registros C195/C197 do SPED Fiscal para notas com Espécie NFC-e Modelo 65, quando a empresa possuir o Regime Especial de Tributação - RET.
+DF-Alterar o comportamento do campo 07-VL_DED_BC do Registro B470 do Livro Eletrônico.
+SP-Calcular o imposto 116-ICMS Diferido como empresa "Normal" quando ultrapassar o sub-limite do Simples Nacional.
+BA-Alterar o livro Registro De Apuração do ICMS Substituição Tributária para que seja demonstrado por UF beneficiária.
+Gerar os registros C601 e C605 para o EFD Contribuições quando no dia (agrupamento) houver somente notas canceladas geradas no registro C600.
+DF-Gerar no arquivo SPED Fiscal os valores do imposto 31-ST/AT.
+SP-Alterar o sistema para gerar os registros 0460, C195 e C197 do SPED Fiscal, quando houver valor de Sub. Trib. e não houver valor informado no campo ICMS ST do quadro Totais das notas de entradas.
+RN-Incluir o ajuste RN033002 em Movimentos/Outros/Impostos Lançados/Estadual.
+ES-Alterar para gerar no livro Registro de ICMS a Observação dos lançamentos de Ajustes de Impostos Lançados com operação Outros créditos, Estorno de créditos e Estorno de débitos.
+Criar opção para optar em substituir ou não os CSOSN 300, 400 e 500 pelo CST 041, 041 e 060 ao gerar o sped fiscal para empresas do simples nacional.
+Alterar a forma de gerar o campo 04-VL_BC_RET do registro F600 no EFD Contribuições quando utilizado os impostos 22-PIS Retido e 23-COFINS Retida com o mesmo código de recolhimento e fato gerador Data de Saída.
+SC-Alterar o crédito presumido de transportes para considerar o estorno de anulação do serviço de acordo com o percentual informado no acumulador.\x0d\x0a
+SC-Ajustar a DRCST conforme Portaria SEF n° 208/2019 referente as notas fiscais complementares.
+Permitir informar dados do ICMS Desonerado para documentos de saída e entrada com modelo NFC-e.\x0d\x0a
+AC-Implementar o cálculo do imposto 27-ICMS Antecipado para empresas do Estado do Acre.
+Permitir cadastrar mais de uma Ordem de Produção com o mesmo número.
+CE-Alterar o cálculo do imposto 8-DIFALI para que considere a tabela de alíquota interestadual de ICMS para o estado do Ceará.
+MT-Permitir efetuar o cálculo do FECEP nas Entradas por Produto conforme Art.161 RICMS/ST. 
+RO-Alterar o sistema para calcular a Base de cálculo do imposto 8-DIFALI conforme Decreto 22.721/2018.\x0d\x0a
+MG-Preparar o sistema para considerar ajuste por pagamento a maior para o imposto 21-RECALI em empresa optante do Simples Nacional.
+Incluir novas naturezas da receita para o CST "09-Operação com Suspensão da Contribuição" conforme atualização da tabela 4.3.16.
+SP-Alterar a forma de gerar o registro 0460 conforme Portaria CAT 66/2019.
+Emitir Termo de Abertura e Encerramento do Livro LMC para cada produto para todas as UFs.
+Criar campo no cadastro do imposto 146-FCP para informar o Estado que irá calcular o FCP na devolução.\x0d\x0a
+Alterar os campos 03-BC_ICMS e 4-VL_ICMS do registro H020 do SPED Fiscal, para considerar o valor unitário dos produtos incluídos e excluídos do Regime ST.
+PE-Alterar a vigência da geração dos registros C170,C177,1010,1960,1970,1975 e 1980 do sped fiscal para 01/2020 conforme Portaria SEF nº 161/2019.
+Criar rotina no sistema para que seja possível emitir a DARF com código de barras através do Sicalc Auto Atendimento (Offline)\x0d\x0a
+Gerar no Registro H010 do Sped ICMS/IPI, nos campos 06 e 11 com valor 0,00 (zero) quando na Posse dos Produtos o valor total é 0,00.\x0d\x0a
+SC-Alterar o sistema para que não considere o débito das notas com CFOPs 5.929 e 6.929 para a base de cálculo do incentivo SEITEC.
+MG-Alterar a forma de gerar a observação do imposto Retido por ST no livro de entradas.
+Alterar para não considerar na apuração o valor do imposto 16-IRRF quando o valor for igual ou inferior ao mínimo para recolhimento nas retenções a compensar no cálculo do IRPJ.
+Implementar rotina para permitir encerrar e reparcelar um parcelamento de imposto já realizado no sistema.\x0d\x0a
+RS-Atualizar a relação de códigos de detalhamento de anexos VA e VB que possuem data fim.
+Incluir os novos CFOPs conforme AJUSTE SINIEF 20, de 10 de Outubro de 2019.
+MG-Gerar no campo 080-Devolução/Outros Créditos da DAPI o valor dos ajustes a créditos lançados para o imposto 9-SUBTRI.
+Considerar a opção Permitir gerar parcela somente no último segmento dos Parâmetros para gerar as parcelas pelo Utilitário Gerar parcelas.
+SC-Alterar o comportamento do campo 8-COD_RESP_RET e 23-VL _ICMS_ST do registro 2130 do DRCST.
+MG-Belo Horizonte-Calcular o ISS por profissional habilitado somente quando no período houver prestação de serviço.
+PE-Gerar no SEF 2012 e SPED Fiscal o valor dos produtos que possuem incentivo PRODEPE enquadramento 1-Indústria, quando a operação for não incentivada.\x0d\x0a
+MA-Implementar o crédito presumido de ICMS nas operações internas com gado suíno vivo ou abatido conforme Art. 4º do Anexo 1.5 do RICMS.\x0d\x0a
+Alterar os campos 24 e 27 do registro Tabela II - Registro da Movimentação do informativo I-Simp e atualizar os produtos conforme versão 467 da tabela.
+Alterar o filtro de selecão dos relatórios de acompanhamentos entradas, saídas e serviços para que possa selecionar mais de um a cada tipo de seleção.\x0d\x0a
+Alterar a contabilização do imposto 28-FUNRURAL para empresas com o tipo inscrição CEI.
+Alterar comportamento da opção "2ª Via Guia" na tela de emissão da guia DAS a partir de 2018.
+EFD-Otimizar a geração dos registros C170, D101, D105 e script.
+MG-Alterar a forma de agrupar os valores no quadro Exclusões e nos relatórios GI Entradas e VAF - Detalhamento de Outras Entradas do informativo VAF.
+RJ-Alterar o Livro Fiscal Registro de Apuração do ISS do Rio de Janeiro para demonstrar a alíquota efetiva do ISS no Simples Nacional.
+SP-Alterar o informativo Nova GIA para abater da DIPAM código 23 os valores das notas com os CFOPs de anulação de transporte (1.206/2.206).\x0d\x0a
+PR-Incluir o código de ajuste do SPED Fiscal PR020169 em Movimentos/Outros/Impostos Lançados/Estadual.\x0d\x0a
+PR-Alterar a descrição dos códigos de ajustes do SPED Fiscal lançados em Movimentos/Outros/Impostos Lançados/Estadual.
+Atualizar a emissão da guia GNRE para a versão 2.0.
+Gerar no registro C170/C175/C181/C185 do EFD contribuições o valor do ICMS que foi deduzido da base de cálculo do PIS e COFINS.\x0d\x0a
+Alterar o comportamento do sistema para o usuário que realizou a programação da Rotina automática
+RS-Desabilitar o campo do ICMS Antecipado na guia "Estoque" quando selecionada a opção "Ultrapassou sub-limite no ano anterior ou mais de 20% no ano calendário".
+MA-Habilitar as colunas "IPI" e "Sub. Trib." na linha do imposto 1-ICMS para lançamentos de entradas.
+Ajustar o valor do campo "Valor ICMS - Diferencial Alíquota" do cadastro de bens quando gerado pela Escrita.
+RS-Gerar o Registro C197 do SPED Fiscal para notas de Entrada de transferência de crédito ICMS com CFOP 1-602 com base em outro amparo legal. \x0d\x0a
+BA-Gerar o valor a recolher do imposto 112-FUCEP - ICMS Antecipado para o informativo DMA.
+RS-Alterar para que seja possível informar mais do que 10 caracteres no campo Nº doc. de arrecadação em "Outros Lançamentos (Lançados Estaduais)"
+Gerar no SPED Fiscal os caracteres especiais "=" e "+" do campo "Código" e "Identificador" do cadastro de produtos.
+SP-Considerar o crédito de ICMS na aquisição de empresas do Simples Nacional no cálculo do ICMS Outorgado para empresas Têxteis.
+MG-Incluir o destino da operação para transferência de matriz e filiais conforme Regime Especial de Tributação RET.
+RS-Alterar o sistema para estornar o crédito de ST em estoque de acordo com a adesão ao ROT ST Combustíveis segundo o Decreto 54783/2019.\x0d\x0a
+DF-Gerar no Registro B020 do SPED Fiscal no campo 7-SER sempre 3 caracteres.
+SC-Alterar o sistema para que importe no campo Quantidade de Trabalhadores na Atividade da DIME apenas a quantidade de contribuintes que possuem lançamento de RPA no período.
+RS-Habilitar a guia Detalhamentos e emitir o registro E113 no SPED Fiscal quando efetuar lançamento de ajuste com o código RS000009-Débitos por Importação.\x0d\x0a
+RS-Gerar o valor do imposto 09-SUBTRI nos registros E220/E230/E240 do SPED Fiscal para empresas enquadradas no REF.
+SP-Alterar o sistema para que gere o registro C197 do SPED Fiscal quando houver valor no campo "IPI" na linha do ICMS, onde o IPI não foi tributado. 
+BA-Alterar o arquivo do informativo SPED Fiscal para o imposto 113-FUNCEP - ICMS Normal conforme orientações da Portaria SEFAZ/BA 160/2019. 
+Criar novos campos na tabela de publicação das guias DAS e DARF Online no Domínio Atendimento
+Alterar o sistema para geração do arquivo DIRF 2020 conforme novo leiaute.\x0d\x0a
+SP-Alterar o sistema para gerar o ajuste de IPI não tributado no registro C197 zerado, conforme  Portaria CAT 66/2018.
+Enviar para o Portal do Cliente a informação de o documento ser um imposto ou não na publicação de guias.
+PR-Implementar o crédito presumido ao estabelecimento industrializador do leite - Anexo VII, Item 30 do RICMS. 
+PR-Atualizar a relação de ajustes disponíveis na coluna Valores declaratórios conforme tabela de código de benefício fiscal.
+Gerar os registros M225/M625 no EFD Contribuições quando é realizado Rescisão do Contrato de Empreendimento Imobiliário.
+Permitir realizar a baixa do parcelamento do Simples Nacional com valor de parcela inferior ao calculado pelo sistema em qualquer uma das parcelas.
+SC-Implementar o crédito presumido nas saídas internas de biscoitos e bolachas, waffles e wafers, e biscoitos salgados - An2, Art. 15, IV do RICMS.
+Criar uma opção nos utilitário para excluir vigência dos impostos do cadastro dos produtos.
+Atualizar o informativo SPED Contábil para o leiaute 8 conforme manual de orientação de 11/2019.
+SP-Alterar o registro CR=20 da Nova GIA para o imposto 31-ST/AT e 116-ICMSDIF.\x0d\x0a
+AM-Ajustar a apuração do imposto 1-ICMS quando possuir lançamento de ajuste com operação "Crédito Ativo Imobilizado".
+MG-Alterar os campos 03-BC_ICMS e 4-VL_ICMS do registro H020 do SPED Fiscal, para considerar o valor unitário dos produtos incluídos e excluídos do Regime ST.
+PE-Gerar Bilhete de Passagem Eletrônico (modelo 63) na SEF 2012.
+Atualizar tabela de códigos NCM conforme Resolução CAMEX nº 4 de outubro/2019 e Resolução CAMEX nº 13 de novembro/2019.
+SP-Redefinir o comportamento do imposto Fundo de Combate a Pobreza Interestadual para que o débito possa ser gerado para a UF de destino da mercadoria. 
+MG-Alterar a geração do informativo VAF, quando efetuado troca do regime de recolhimento no decorrer do ano-calendário.\x0d\x0a
+RS-Permitir efetuar o lançamento de nota de saída com destaque de ICMS para lançamento da Operação com incidência de Outros Débitos de ICMS, pela suspensão do diferimento nas saídas a contribuinte do REF. 
+MA-Implementar o cálculo do imposto 31-ICMS-ST/AT para empresas do Estado do Maranhão.\x0d\x0a
+RR-Gerar os valores do Estoque nos informativos GIM e DVA considerando as casas decimais.
+Criar o filtro para selecionar os impostos a serem atualizados no Utilitários "Atualizar Impostos no Cadastro de Produtos Conforme NCM".
+SC-Alterar o sistema para que permita configurar o cálculo de TTD 409, 410 ou 411 por produto e CST do lançamento. 
+SC-Permitir lançamento de crédito presumido TTD 409,410 ou 411 através de lançamento de ajuste. 
+SP-Alterar a base de cálculo do imposto 116-ICMS Diferido conforme Decisão Normativa CAT Nº 1 DE 30/05/2019.
+SC-Alterar a validade do crédito presumido de bares, restaurantes e similares - An2, Art. 21, IV para 31/10/2020.\x0d\x0a
+PR-Incluir os códigos de ajuste do SPED Fiscal PR020081 e RS020097 em Movimentos/Outros/Impostos Lançados/Estadual.
+SC-Criar no Utilitários de Alterar Produtos e na janela de Configurar Dados de Impostos por NCM a opção de alterar as informações da guia Estadual.
+Alterar o sistema para atender as novas alterações do SPED Fiscal - Versão 3.0.3.
+RJ-PR-Somar o valor do imposto Fundo de Combate a Pobreza Difali para o campo Valor ICMS - Diferencial Alíquota do cadastro do Bem gerado no módulo Patrimônio.
+Alterar o sistema para preencher a tela de "Base de Impostos por parcela" para o SPED PIS/COFINS quando geradas as parcelas pelo Utilitários/Gerar Parcelas e a empresa estiver configurada para calcular Receita Diferida de PIS e COFINS.\x0d\x0a
+RS-Incluir a coluna CFOP no relatório DEMONSTRATIVO DA SUB-APURAÇÃO DO COMPLEMENTO/RESSARCIMENTO DO ICMS-ST.
+DF-Ajustar o cálculo da Lei nº 5.005/2012 conforme alteração da Lei nº 6.375/2019 para separar as operações internas e interestaduais.\x0d\x0a
+TO-Atualizar os códigos de atividades - CNAE no informativo GIAM da atualização 02/2019.
+Criar o campo Data de emissão na guia Detalhamento da tela de Movimentos/Outros/Impostos lançados/Federal e gerar a data no campo 07-DT_DOC do registro E531 do SPED Fiscal.\x0d\x0a
+SC-Criar opção para considerar a data de averbação para a exportação na geração do item 017 quadro 41 da DIME.
+AP-Gerar os valores apurados para o imposto 8-DIFALI no SPED Fiscal.
+Alterar o sistema para não gerar o código do participante, código do item e subsérie no registro E113, conforme alterações do SPED Fiscal - Versão 3.0.3.
+SC-Ajustar a descrição complementar dos registros E111, C197 e D197 conforme Anexo I da Portaria SEF nº 377/2019.
+Alterar sublimites do Simples Nacional para 2020.
+Alterar o informativo EFD contribuições conforme guia prático 1.33 a partir de 01/2020.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para apuração por TTD 409, 410 e 411.
+SC-Alterar os códigos de ajustes no SPED Fiscal a partir de 01/2020 conforme Ato Diat nº 36/2019
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para o benefício Crédito Presumido Bares, Restaurantes e Similares - An2, Art. 21, IV.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para o benefício Crédito Presumido Material Reciclável - An2, Art. 21, XII.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para apuração dos créditos presumidos de Informática, Transportadoras e Embarcações Náuticas.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para o benefício Crédito Presumido na Saídas de Peixes, Crustáceos ou Moluscos - An2, Art. 21, VI.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para apuração do Crédito Presumido Confecção - Anexo 2, Art. 21, IX.\x0d\x0a
+TO-Atualizar o informativo DIF para a versão 2020.
+MT-Alterar o sistema para permitir apurar o Simples Nacional conforme Art. 2º LXXIII do Decreto 273/2019.
+SC-Alterar a DCIP conforme Correio Eletrônico Circular SEF/DIAT/N.º 02/2020.
+SC-Alterar a forma de gerar o Crédito de Energia Elétrica com base em laudo técnico conforme Correio Eletrônico Circular SEF/DIAT/N.º 02/2020.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para o benefício Crédito Presumido nas saídas de feijão  - Anexo 2, Art. 21, VIII.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para apuração do "Crédito Presumido nas saídas de industrialização de leite - An2, Art. 15, XXVIII".\x0d\x0a\x0d\x0a\x0d\x0a\x0d\x0a
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para apuração do Crédito Presumido nas vendas interest. a consumidor final não contribuinte do ICMS - An2, Art. 21, XV".
+MT-Atualizar a lista de códigos de ajuste do SPED Fiscal da tela de lançamentos de ajustes estaduais e atualizar os códigos emitidos para os benefícios fiscais.
+SC-Alterar o sistema para voltar a realizar o cálculo do Crédito presumido nas saídas de industrialização de leite - An2, Art. 15, XXIX conforme restabelecido pela Lei 17.877/19.
+SC-Alterar a geração do bloco 1900 conforme Lei N° 17.877 para apuração do "Crédito Presumido nas saídas de industrialização de leite - An2, Art. 15, XXVIII e XXIX".\x0d\x0a
+SC-Incluir os códigos 009, 010 do Tipo de Atividade do Valor Adicionado, conforme Portaria SEF 120/2019 e os códigos 011, 012, 013 e 507 conforme Portaria SEF 332/2019.
+TO-Gerar o registro 1400 do SPED Fiscal de acordo com a Tabela de Itens UF Índice de Participação dos Municípios TO.
+Implementar rotina de lançamento de desconto nas Notas Fiscais de Serviço.
+Atualizar para gerar o informativo DEFIS 2020.
+Gerar no informativo EFD Contribuições os registros 0900 e 1011 conforme guia prático 1.33 a partir de 01/2020.
+SC-Alterar o sistema para contemplar as alterações Portaria 377/2019 referente as alterações nos registros E220, E230, E240 e C500.
+SC-Gerar o registro 1400 do SPED Fiscal de acordo com a Tabela de Itens UF Índice de Participação dos Municípios SC.
+Incluir e alterar CFOPs conforme AJUSTE SINIEF 27, de 13 de Dezembro de 2019.
+RO-Implementar no sistema o lançamento de notas de saídas com situação de "Documento regular extemporâneo" e "Documento fiscal complementar extemporâneo".
+SP-Alterar o sistema para que o registro C197 do Sped Fiscal com código de ajuste SP90090278 NÃO gere quando a operação for com contribuinte SUBSTITUTO. ?
+Alterar o sistema para que gere o VL_UNIT e VL_ITEM do produto no Bloco H010, quando na tela de "Posse de Produtos" o valor total esteja zerado.\x0d\x0a
+Alterar para gerar no Endereço do Imóvel as informações dos campos Número, Bairro e Complemento no informativo DIMOB.
+Criar Utilitários para que seja possível excluir o valor dos campos Base de cálculo, Alíquota e Valor imposto dos impostos lançados das notas de entrada, saídas e guia Estoque.
+Gerar o registro D101 no SPED Fiscal, quando realizado lançamento com o modelo "Bilhete de Passagem Eletrônico - BP-e - Modelo 63".
+Gerar a GNRE para valores apurados de Substituição Tributária por UF Favorecida.
+Criar opção para identificar qual empresa será a transmissora de informativos e guias federais.
+Permitir gravar o lançamento da nota de Entrada de Energia Elétrica modelo/Espécie 55 sem o preenchimento dos campos "Valor fornecido/consumido, "Valor  de despesas acessórias" e "Valor cobrado para terceiros" da guia Complementar/Geral/Energia/Gás/Comunicação.
+SP-Adequar o cálculo do ressarcimento do ICMS ST conforme Portaria CAT 42/2018 quando a compra da mercadoria for de um substituto do Simples Nacional.
+Considerar o fato gerador dos impostos nas operações de saídas para os lançamentos de Bilhete de Passagem Eletrônico.
+Incluir no menu "Incluir a Atividade na Movimentação de Notas para Cálculo do INSS Receita Bruta" o Tipo de nota Cupom Fiscal Eletrônico (CF-e).
+Alterar para que o valor do IPI devolução da guia complementar seja excluído da base de cálculo de PIS/COFINS em empresa do lucro presumido simplificado por nota.\x0d\x0a
+PE-Alterar a base de cálculo do imposto 27-ICMSA conforme Decreto 47.154/2019. 
+SP-Implementar o regime especial de tributação do ICMS aos contribuintes com atividade de fornecimento de alimentação - Decreto 51.597/07.
+TO-Gerar no segmento M do informativo GIAM as notas de entrada com CFOPs do Campo 15.4-ENTRADAS E/OU AQUISIÇÕES.
+SC-Implementar a geração do bloco 1900 conforme Portaria SEF Nº 377/2019 para o benefício Crédito Presumido nas saídas de vinho - An2, Art. 21, X.\x0d\x0a
+SC-Alterar o cálculo do Ressarcimento/Complemento do ICMS ST (DRCST) para considerar as alterações das Portaria SEF N° 343/2019 e 416/2019.\x0d\x0a
+Criar campo "Observação" na emissão da guia DARF através da opção "Guia DARF Offline - Sicalc Auto Atendimento".
+Alterar o sistema para incluir o código "42020 - ÓLEO DIESEL MARÍTIMO (DMA-MGO, DMB-MDO)" na tabela de código de produto do informativo SCANC.\x0d\x0a
+ES-Alterar o sistema para permitir calcular as operações com créditos do imposto "130-FUNDAP" nas devoluções de venda e aquisições de frete.
+Criar no Utilitários Alterar Notas a opção para alterar Cliente e Fornecedor
+MG-Atualizar informativo DAPI conforme versão 9.02.00.
+SP-Criar uma opção no acumulador para que seja considerada as informações dos lançamentos de entradas e saídas no quadro do DIPAM B na ficha 3.1 e 3.5, do informativo Nova GIA.
+MT-Implementar o cálculo do imposto 31-ST/AT para empresas de Mato Grosso.
+RS-Gerar no anexo V.C da GIA o valor do IPI e SUBTRI das devoluções de venda que não integram a base de cálculo do ICMS.\x0d\x0a
+RS-Gerar o Registro C197 do SPED Fiscal com os códigos de ajustes entre RS99993011 e RS99993023, quando houver adjudicação de crédito de ressarcimento ST (CFOP 1603).
+MT-Alterar o cálculo do Simples Nacional conforme Decreto 273/2019 para que considere as notas de compra de contribuintes substituídos como compras de produtos do regime de substituição tributária.
+PE-Alterar o sistema para que volte a ser gerado o Bloco G do SPED Fiscal quando o mesmo for Perfil B e a data for igual ou superior a 09/2018.
+SC-Gerar os registros C595 e C597 com o código SC00000001 referente ao crédito do ICMS subst. tributária autorizado ao contribuinte substituído.
+Criar opção no Demonstrativo Faturamento para selecionar o contador diferente do cadastro da empresa.
+Alterar o sistema para não gerar na DCTF os débitos dos impostos que não possuem valor a recolher.
+Alterar o sistema para não somar ao campo Total de devoluções de compras de mercadorias para comercialização ou industrialização no período abrangido pela declaração os lançamentos com CFOP 5.662/6.662.\x0d\x0a
+Enviar para o Portal do Cliente a informação do vencimento e de o documento ser um imposto ou não na publicação de guias.
+Enviar para o Portal do Cliente a informação do vencimento e de o documento ser um imposto ou não na publicação de guias.
+Enviar para o Portal do Cliente a informação do vencimento e de o documento ser um imposto ou não na publicação de guias.
+SP-Alterar o sistema para que apenas a linha de IPI que não integra a base de cálculo de ICMS seja gerado no campo Outros Impostos da GIA.
+TO-Alterar o sistema para não considerar alguns CFOPs na geração do informativo DIF.\x0d\x0a\x0d\x0a
+MG-Alterar o sistema para que na tela de valores agregados do SPED Fiscal seja deduzido 20% do valor na importação da prestação de serviços de transportes.
+PE-Gerar o registro E113 do SPED Fiscal para as notas lançadas com o imposto 27-ICMSA.
+MT-Atualizar os códigos de valores declaratórios de ICMS no registro E115 do SPED Fiscal.\x0d\x0a
+AL-Implementar no sistema rotina para escrituração de documento extemporâneo de saídas. 
+Gerar os registros M210/M610 quando o CST for 05 e a natureza da receita for diferente de 101.
+MT-Atualizar a lista de códigos de ajuste do SPED Fiscal da tela de lançamentos de ajustes estaduais.
+SC-Alterar o sistema para habilitar o campo base de cálculo na tela de Ajustes de Lançamentos Estaduais para gerar o item 60 do quadro 11 da DIME.
+Informar a Data Fim de Validade na geração do evento R-1000 quando ocorrer alterações no grupo "Dados" do botão "Outros Dados" do REINF.
+Criar operação em Impostos Calculados para não considerar ganhos de capital como Receita Bruta no imposto 33-IRPJ Postergado.\x0d\x0a
+Retornos Powerbuilder 19
+Enviar para o Portal do Cliente a informação do vencimento e de o documento ser um imposto ou não na publicação de guias.
+Efetuar o controle da prorrogação do vencimento dos tributos do Simples Nacional.
+Disponibilizar no cadastro do imposto 103-INSS-RB e 142-CPRB/SCP o vencimento para o 4º mês e 5º mês subsequente conforme Portaria 150/20.
+Alterar o sistema para que seja possível desconsiderar o valor retido do imposto 39-IRRF Propaganda quando for menor ou igual a quantidade mínima para recolhimento.
+RN-Incluir os códigos de ajuste RN022045 e RN029090 em Movimentos/Outros/Impostos Lançados/Estadual.
+Alterar para que quando o imposto 63-IRRF APF for do tipo calculado o sistema considere o Percentual B.C. informado no cadastro do acumulador.\x0d\x0a
+MS-Importar na tela de Valor Agregados do Sped Fiscal os lançamentos de Bilhetes de Passagem, modelo 63.\x0d\x0a
+GO-Importar na tela de Valores Agregados do SPED Fiscal os lançamentos de Bilhetes de Passagem, modelo 63.
+BA-Implementar o cálculo do estorno dos créditos de ICMS quando for realizado venda isenta ou não tributada - Art. 312, I do RICMS/BA.
+Alterar apuração do imposto 28-FUNRURAL para demonstrar diferimento quando o valor a recolher for menor do definido no cadastro do imposto. 
+BA-Permitir informar o desconto no pagamento de imposto e aplicar 20% de redução na guia DAE do imposto 27-ICMSA.
+EFD-Otimizar a geração dos registros C170, D101, D105 e script.
+RJ-Atualizar a relação de ajustes disponíveis para informar na guia "Estoque" coluna "Valores declaratórios" conforme Portaria SUCIEF nº 71/2019.
+MG-Alterar a DAPI referente aos valores do imposto 9-SUBTRI quando o município origem do conhecimento de transporte for diferente de MG.
+DF-Gerar o campo VL_BC_ICMS do registro C100, C170 e C190 do SPED Fiscal, nas empresas do Simples Nacional.
+SC-Permitir efetuar o cálculo do crédito do ICMS sobre o estoque das mercadorias excluídas do regime da Substituição Tributária, Anexo 3, Art. 35, RICMS/SC em empresas do Simples Nacional.
+DF-Alterar o sistema para gerar o valor do imposto 08-DIFALI no campo 03 do registro E110 do Sped Fiscal para empresa do Simples Nacional.
+SP-Implementar o cálculo do imposto 69-ICMS ST Transportes.
+RS-Incluir no sistema novos dispositivos de crédito presumido conforme atualização da tabela da GIA.
+SC-Alterar para que no quadro 00 - Informações Iniciais da DIME seja gerado a informação Sem movimento quando no período possuir apenas lançamentos de Redução Z - Modelo 2D com operação Cancelamento ICMS.
+GO-Alterar o cálculo do estorno do crédito excedente conforme IN 1.237/15, para que seja possível indicar as operações que não entram para o cálculo.
+SP-Alterar o sistema para que os CT-es Aéreos não sejam considerados para o Crédito Presumido de 20% para empresa de transporte conforme Convênio ICMS 106/96.
+SC-Alterar o sistema para calcular o imposto 32-Fundosocial considerando o TTD 409, 410 ou 411 e Crédito Presumido nas vendas interest. a consumidor final não contrib. do ICMS - An2, Art.21, XV.
+RS-Incluir o código de transferência "171" na guia "Estadual" do lançamento de saída e gerar o C197 com o código "RS40009171".\x0d\x0a
+SP-Gerar o Registro E112 do SPED Fiscal quando possuir lançamento de ajuste com Subitens 220, 223, 740, 741, 745.
+SP-Alterar o sistema para gerar o registro 0150 quando o arquivo possuir registro 1100 no arquivo da CAT 42/2018.
+Alterar sistema para não considerar saldo credor de retenções de períodos anteriores no cálculo de PIS e COFINS não cumulativo.
+PE-Alterar sistema para não gerar no arquivo SEF e eDOC as notas fiscais sem ICMS e gerar quando for conjugada/segmentada ICMS/ISS.
+AM-Incluir novos códigos de ajuste no SPED Fiscal conforme Resolução nº 029/2019-GSEFAZ. 
+MG-Criar opção no Sintegra para não gerar os registros 76 e 77 das notas de saídas de Comunicação e Telecomunicação.
+Demonstrar a base de cálculo correta (reduzida) na geração do Livro Registro de ISS para empresas do Simples Nacional.
+GO-Alterar o cálculo Contribuinte Industrial e Atacadista - Estornar crédito conforme IN 1.237/15-GSF para saber a carga tributária das entradas internas.
+Implementar a apuração do imposto 9-SUBTRI Por Nota e detalhar os recolhimentos no registro E250 do SPED Fiscal.\x0d\x0a\x0d\x0a
+PR-Ajustar o sistema para gerar o registro E113 do SPED Fiscal referente ao código de ajuste PR020097.
+Gerar o campo 22-INF_COMP do registro F200 do EFD Contribuições limitado a 90 caracteres.
+Alterar o percentual aplicado no registro S28 do informativo PER/DCOMP conforme Decreto 9.393/18.
+Otimizar a geração dos registros H e K do Sped Fiscal.
+PR-Atualizar os códigos gerados no registro E220 do SPED Fiscal quando efetuado lançamento de ajuste com operação Estorno de crédito e Outras deduções para o imposto 9-SUBTRI.
+RJ-Alterar o sistema para que seja aplicada a redução da base de cálculo do ICMS na apuração do Simples Nacional quando possuir Receita Bruta acumulada zerada nos últimos 12 meses.
+Atualizar os códigos CEST nos cadastros de produtos conforme Convênio 38/19, 130/19, 165/19, 240/19.
+SP-Alterar o sistema para gerar os ajustes SP10090749, SP41090203, SP11090705 e SP40090227 para o imposto 31-ST/AT para empresas com tipo "Varejista".
+MT-Permitir efetuar o cálculo do 56-FECEP-ST pelas entradas.
+SC-Alterar o código de ajuste na nota referente ao Crédito Presumido TTD 409, 410 ou 411 e ao Estorno de débito TTD 409, 410 ou 411 conforme Ato Diat nº 36/2019.
+RS-Atualizar os códigos do Anexo VA e VB conforme tabela da GIA.
+Alterar o embasamento legal utilizado nas empresas do Simples Nacional conforme Resolução CGSN 140/2018.
+RN-Atualizar os códigos de Ajuste do SPED Fiscal nos lançamentos efetuados em Movimentos/Outros/Impostos Lançados/Estadual.
+MG-Gerar no registro 1400 do SPED Fiscal os valores das notas com espécie "Conhecimento de Transporte Eletrônico para Outros Serviços - CT-eOS, Modelo 67".
+PE-Gerar o código PE020003 no registro E111 do SPED Fiscal para o valor do Crédito presumido de 20% para transportadoras - Convênio de ICMS 106/96.
+Alterar a forma de gerar o campo "02" do registro "0110" da EFD Contribuições quando a empresa for do Lucro Real com os impostos 4,5,17 e 19 e não possuir movimentação no período. 
+Atualizar a alíquota e a quantidade de casas decimais do imposto 28-FUNRURAL para o SENAR conforme MP 932/2020.
+RS-Alterar a forma de cálculo do Complemento/Ressarcimento de ICMS ST para empresa varejista que não aderiu ao Regime Optativo de Substituição Tributária (ROT ST)
+Alterar a forma de calcular o fator R no calculo no Simples Nacional nos 12 primeiros meses de início das atividades. 
+Possibilitar o cálculo da redução de ICMS conforme Lei 5.147/2007 para empresas cadastradas fora da UF RJ.
+PR-Alterar o cálculo da redução de base de cálculo do ICMS dentro do Simples Nacional quando a empresa ultrapassar o sub-limite de 3.600.000,00.
+Alterar para que os Valores repassados pelas agências de propaganda a empresas de rádio, televisão e outros sejam desconsideradas do valor de Receita Bruta para empresa Normal no cálculo da Receita Bruta Global do Simples Nacional.
+ES-Alfredo Chaves-Calcular redução na base de cálculo do ISS conforme percentuais estabelecidos na Lei Complementar nº 013/2018.
+Incluir opção para informar qual a data será considerada como fato gerador para o imposto 18-ISS Ret na entrada.
+Alterar o sistema para gerar os valores de IPI por CFOP da nota, na PER/DCOMP.
+Permitir calcular o imposto 70-CFEM para os movimentos de Cupom Fiscal Eletrônico - CF-e.
+SC-Ajustar o agrupamento dos registros C197 de códigos SC24000001, SC54000001 e SC54000002 utilizados para a transferências dos valores dos créditos presumidos para a sub-apuração.
+ES-Considerar o valor de crédito de ICMS sem estoque para lançamentos contemplados no benefício fiscal estabelecimento Comercial Atacadista - Arts. 530-LRK e 534-ZZA RICMS.
+Criar na tela ISS Fixo por Faixa - Simples Nacional no grupo Considerar a receita bruta a opção Do mês, para que os usuários possam configurar uma tabela de ISS Fixo com base na receita bruta do mês.
+SC-Permitir o preenchimento do CFOP 5-910 e 6-910 na guia "Estadual" de notas de entrada com crédito de empresas do Simples Nacional.
+SC-Alterar a alíquota do crédito presumido bares, restaurantes e similares conforme Ato DIAT nº 05/2020.
+SC-Gerar o número do S@T na DCIP para o crédito presumido de estabelecimentos abatedores - An2, Art 17.
+SC-Alterar o código de ajuste no C197 para os créditos presumidos conforme Ato DIAT nº 36/2019 a partir de 01/2020.
+RO-Alterar o cálculo do imposto 8-DIFALI conforme Decreto 24.695/2020.
+SC-Permitir calcular o crédito presumido do TTD 409, 410 ou 411 e do Material Reciclável - An2, Art. 21, XII, no mesmo acumulador quando a forma de cálculo for por produto.
+Alterar o sistema para que gere na DCTF os débitos dos impostos trimestrais quando gerada em competência diferente de 03, 06, 09 ou 12 e o tipo for extinção.
+SC-Alterar o sistema para gerar o registro C197 com código SC50000002 ou SC50000999 para as devoluções de vendas com crédito presumido.
+Alterar o valor da guia DARF deduzindo o valor da compensação realizada somente no pagamento dos impostos federais.
+Criar o campo Sequencial Item na guia estoque dos lançamentos de notas de Entradas e Saídas para que possam ser utilizados na emissão do SPED Fiscal e do DRCST.
+PB-Alterar o sistema para gerar os valores de ICMS Recuperável no registro H020 do SPED Fiscal.
+RS-Gerar o registro H005 com motivo 05 no SPED Fiscal quando a empresa possui Posse dos produtos e Estoque das Empresas Varejistas - Instrução Normativa 48/2018.
+Gerar os lançamentos de notas extemporâneas com origem "Extemporâneo" na Contabilidade.\x0d\x0a
+SC-Habilitar a opção "Estorno de Débito de ICMS destacado e lançado indevidamente" na tela da DCIP para valores a partir de 01/2020.
+Alterar os campos "05-DEC_CAMPO" e "07-COL_CAMPO" do registro I510 do SPED Contábil, para gerar o mesmo número de caracteres permitido no campo "Razão Social" do cadastro de Clientes/Fornecedores.
+Alterar o sistema para gerar a chave do CT-e e CT-eOS quando a nota for lançada com situação Desfazimento de negócio.\x0d\x0a
+SC-Alterar o cálculo do crédito presumido aos estabelecimentos abatedores conforme RICMS An2, Art. 17.
+SC-Limitar o crédito transferido para a sub-apuração do imposto 1-ICMS ao valor do débito do período por operações, quando a empresa possuir crédito presumido/e ou TTD apurado conforme RICMS-An2, Art.23,V.
+Permitir lançar em "Redução Z-Bilhetes de Passagem" documentos com CFOP iniciado em 6.XXX e 7.XXX.
+MA-Gerar o registro 1400 do SPED Fiscal de acordo com a Tabela de Itens UF Índice de Participação dos Municípios.
+AP-Adequar os lançamentos de ajustes estaduais para o imposto 1-ICMS ao SPED Fiscal.
+Criar opção para gerar a DEFIS 2020 através do certificado digital do procurador pelo e-cac.
+SC-Criar opção no lançamento de ajuste com operação Crédito Ativo Imobilizado para definir se o valor será considerado ou não na apuração beneficiada pelo Crédito Presumido Material Reciclável - An2, Art. 21, XII.
+MG-Alterar a alíquota interestadual utilizada para o cálculo do imposto 21-RECALI.
+ES-Atualizar os CFOPs gerados no informativo DOT.
+PE-Implementar no sistema rotina para escrituração de documento extemporâneo de saídas. 
+RO-Incluir novos códigos de ajuste na tela de Impostos Lançados a partir de 01/03/2020 conforme IN nº 009/2020/GAB/CRE/SEFIN.
+Alterar o sistema para realizar a compensação mensal na janela Restituição, Ressarcimento e Compensação de PIS/COFINS.
+SC-Alterar o sistema para que o saldo credor do ICMS calculado para o Crédito Presumido nas saídas de industrialização de leite - An2, Art. 15, XXVIII e XXIX, seja limitado ao valor dos débitos. \x0d\x0a
+GO-Alterar o sistema para que em empresas matriz/filial não seja calculado o imposto 27-ICMSA para filial quando a empresa não ultrapassar o limite de R$ 360.000,00 (trezentos e sessenta mil reais).
+Gerar no registro A170/C170/C175/C181/C185 do EFD contribuições o valor do ISS que foi deduzido da base de cálculo do PIS e COFINS.
+TO-Alterar o sistema para considerar o ICMS de compras de Simples Nacional no crédito presumido Lei 1.201/2000. 
+TO-Ajustar o cálculo do Crédito presumido - Lei Nº 1.201/2000, Art. 1º I e III a partir de 03/2020 conforme Lei Complementar Nº 3.618/2019.\x0d\x0a
+SP-Gerar na DIPAM e SPED Fiscal os valores de Bilhete de Passagem Eletrônico - BP-e - Modelo 63.
+SE-Criar opção para estornar os créditos de ICMS que não fazem parte do TARE.
+SP-Considerar os movimentos lançados em Bilhetes de Passagem, Redução Z - Bilhete de Passagem e Resumo de Movimento Diário - Modelo 18 para o cálculo do Crédito presumido de 20% para empresas de transportes conforme Convênio ICMS 106/96.
+AL-Gerar mais de um lacre no relatório e arquivo DAC no registro tipo 72.
+MG-Gerar no campo 03 dos registros 50, 51 e 53 do Sintegra a Inscrição Estadual quando o cliente ou fornecedor possuir a inscrição CPF e for da UF de MG.
+MG-Permitir lançar o imposto 125-ICMS Complementar para operações com Conhecimento de Transporte Eletrônico - CT-e.\x0d\x0a
+MT-Alterar a forma de setar o valor apurado do IAGRO, FACS, FAMAD, FABOV, CIPEM, IMANT e IMAFIR pelas entradas.
+SC-Alterar as alíquotas referente ao Crédito Presumido Industrialização de leite a partir de 03/2020.
+AL-Incluir a opção para regerar lançamentos contábeis dos outros movimentos de impostos lançados estaduais.
+Preencher a chave de movimentos eletrônicos sem que seja preciso inserir os dados manualmente (MODO TESTE).
+PI-Implementar o cálculo do imposto 27-ICMS Antecipado para empresas do Piauí conforme Art. 766 do Decreto 13.500/2008 por nota e por produto.
+Gerar a guia e pagamento do GPS-FUNRURAL quando calculado através da DCTFWeb e possuir fornecedor com tributação sobre a folha de pagamento. 
+SC-Criar opção para que o sistema considere o valor incluído na tela Saldo final de Produtos como saldo final para o cálculo do DRCST.
+Atualizar os valores das Parcelas do "Parcelamento PERT - Simples Nacional", após o pagamento da entrada do parcelamento "Especial - Até 145 parcelas".
+Permitir gerar o valor do ISS Fixo na Guia Municipal ou PGDAS para empresa do Simples Nacional que efetua a apuração de acordo com a faixa do município para Escritório de Serviços Contábeis. 
+Permitir configurar o enquadramento no regime Lucro Arbitrado, para empresas de factoring (fomento mercantil).
+Permitir utilizar o código de ajuste RS149999 nos lançamentos de ajustes com o imposto 9-SUBTRI em empresas com UF diferente de RS.
+SC-Ajustar o cálculo do crédito presumido confecção Art. 15, inciso XXXIX para gerar o registro C197 no sped fiscal com o código "SC10000044".
+PR-Implementar o cálculo da recuperação, ressarcimento e complementação do ICMS-ST e a geração do informativo ADRC-ST - Decreto 3.886/2020.
+SC-Criar a possibilidade de aproveitar o valor do ressarcimento acobertado por NF-e oriundo do DRCST com o imposto 31-ST-AT.
+SC-Alterar o valor do campo 13 - VL_E do registro 2130 da DRCST.\x0d\x0a
+MA-Implementar o crédito presumido em operações promovidas por estabelecimento atacadista, conforme Art. 8º do Anexo 1.5 do RICMS.
+SP-Considerar as devoluções de vendas no cálculo do imposto 57-FCP ST quando a UF favorecida for de MG.
+Implementar a contabilização do imposto 28-FUNRURAL para empresas com inscrição federal CAEPF que realiza venda para CNPJ.
+SPED Fiscal - Otimizar o processo para gerar o arquivo no registro K200.
+MT-Calcular a redução do ICMS de empresa que possui uma filial em MT com sede em outro estado, conforme Decreto 273/2019.
+SC-Gerar o código SC020019 e SC010007 no SPED Fiscal referente a sub-apuração das empresas com TTD 409, 410 ou 411.\x0d\x0a
+MT-Permitir definir o valor unitário do adicional do FETHAB.
+RS-Alterar o cálculo do imposto 8-DIFALI para integrar o IPI na base de cálculo do ICMS conforme  Livro I, art. 16, I, "f" do RICMS/RS.\x0d\x0a\x0d\x0a
+Alterar a data de vencimento da 2º via da guia DAS quando publicado no domínio atendimento e portal do cliente.\x0d\x0a
+MT-Implementar o crédito outorgado ao estabelecimento comercial varejista, conforme Art. 2º, I do Decreto 273/2019.
+MT-Implementar o crédito do ICMS sobre estoques das mercadorias excluídas do regime de estimativa simplificado - Art. 8º, Decreto 273/2019.
+Incluir nova Natureza da Receita código 324, para o CST 06 conforme atualização versão 1.21, da tabela 4.3.13 do EFD Contribuições.\x0d\x0a\x0d\x0a
+MT-Alterar o imposto 8-DIFALI considerando o valor do crédito de origem e redução da base de cálculo interna.\x0d\x0a\x0d\x0a
+MG-Alterar o sistema para gerar o registro 74 zerado no Sintegra, mesmo quando não possui produtos cadastrados. \x0d\x0a\x0d\x0a
+RS-Alterar o cálculo do imposto 27-ICMSA, de maneira que considere a base de cálculo do imposto 01-ICMS quando aplicado à alíquota interestadual.
+Criar opção para não somar o valor de Despesas Acessórias na base de cálculo de PIS e COFINS nas compras de produtos no regime não cumulativo.
+Ajustar o EFD Contribuições quando se tratar de anulação de frete (devolução) emitida com Cte-OS, modelo 67.
+Gerar o registro D101 com os valores zerados quando não for preenchida a guia ICMS para lançamento de Bilhete de passagem eletrônico. 
+CE-Alterar o sistema para gerar a inscrição estadual da empresa no campo 15 do registro EMP do informativo DIEF.
+PR-Importar na tela de Valores Agregados do SPED Fiscal os lançamentos de Bilhetes de Passagem, modelo 63.
+SC-Permitir gravar a tela Estoque Substituição Tributária - Produtos Excluídos do Regime ST quando o campo "MVA" estiver zerado.
+TO-Criar campo na GIAM para que seja possível informar um contador diferente do responsável.
+PB-Alterar cálculo do imposto 8-DIFALI conforme Decreto 40.006/2020.
+RS-Alterar o sistema para gerar as parcelas do estorno do ROT com o mesmo valor para todas as parcelas.
+RS-Alterar os códigos de ajustes do registro 1921 do SPED Fiscal quando a empresa não é optante do ROT-ST e ajustar a geração da série do registro 1923.
+RJ-Ajustar a apuração do imposto 01-ICMS referente as notas de compra na aquisição de empresa do Simples Nacional conforme Resolução SEFAZ Nº 123/2020.
+Adequar o sistema para acesso ao portal do e-CAC conforme alteração no site da Receita Federal.
+Alterar o sistema para que seja efetuada a geração do DAS considerando a prorrogação dos vencimentos conforme Resolução CGSN nº 154/2020.\x0d\x0a
+TO-Gerar no segmento M do informativo da GIAM as notas de entrada e saída com CFOPs listadas na Portaria 1392/2019.
+Alterar o sistema para não gerar o CST do produto com tipo do item Serviço no registro I510 do SPED Contábil Inventário.
+Gerar o registro I550 do SPED Contábil quando não possuir empreendimento imobiliário ou produto cadastrado.
+MG-Calcular o Imposto 21-RECALI para espécies de Transporte em casos que o tipo do imposto seja calculado por produto.
+RS-Alterar a forma de gerar o Registro E111 do Sped Fiscal dos lançamentos de créditos do Ativo Imobilizado conforme IN RE nº 34 de 12/05/2020. 
+RS-Alterar a mensagem que o sistema emite para o cálculo do crédito presumido saídas internas de vinho Art. 32, CLXVIII até 31/12/2020.
+Criar opção para gerar a contabilização do FUNRURAL separadamente para Produtores Rurais que geram o Livro Caixa Digital do Produtor Rural - LCDPR.
+Gerar o registro 0020 no SPED Contábil Inventário de empresas com Matriz e Filial com contabilidade descentralizada.
+Alterar a alíquota do imposto 28-FUNRURAL devido o fim da validade da MP 932/2020. 
+Alterar o vencimento do imposto 44-SIMPLES NACIONAL devido o fim das prorrogações da Resolução CGSN nº 154/2020.
+MS-Implementar o cálculo do imposto 31-ST/AT para mais de um código de recolhimento e periodicidade.\x0d\x0a
+RO-Calcular o ressarcimento de ICMS ST conforme Art. 20, Anexo VI do RICMS e gerar o registro C176 conforme IN 022/2018.
+MT-Implementar o cálculo do DIFALI por produto para realizar a apuração conforme Artigo 8°, § 4º, do Anexo X do RICMS/MT.
+GO-Inserir opção para calcular o Crédito Outorgado do LOGPRODUZIR conforme Regime Especial - Lei 20.367/2018.
+SC-Alterar os códigos de ajustes no SPED Fiscal a partir de 06/2020 conforme Ato Diat nº 18/2020.
+ES-Alterar a descrição do Crédito Presumido de 20% para transportadoras uma vez que o inciso III foi revogado.
+SC-Alterar o sistema para gerar os códigos de ajuste válidos a partir de 01/06/2020, conforme 5.1.1 - Tabela de Ajustes na apuração do imposto não vinculado diretamente ao documento fiscal\x0d\x0a
+Atualizar a tabela de códigos NCMs conforme Nota Técnica 2016.003 - Versão 1.70 de junho/2020.
+MG-Gerar o registro 1400 do SPED Fiscal conforme as informações do DAMEF/VAF.
+BA-Alterar a apuração do imposto 113-FUNCEP-ICMS Normal conforme Portaria 160/2019.
+SC-Criar opção nos parâmetros para que seja efetuada a apuração do Crédito Presumido Transportadoras no estabelecimento centralizador.
+MG-Alterar o sistema para realizar o cálculo do crédito presumido concedido por meio do RET considerando o valor do produto.
+PA-Implementar opção para calcular o imposto 27-ICMS Antecipado por produto.\x0d\x0a
+MT-Disponibilizar o código de ajuste MT029011 para ser utilizado na tela de impostos lançados.\x0d\x0a\x0d\x0a\x0d\x0a
+PA-Gerar o registro 88 Tipo 20 no arquivo do informativo DIEF quando não possuir movimentação no período.
+RS-Considerar a última nota de entrada que possua os impostos 31-S/AT ou 09-SUBTRI no cálculo do ressarcimento do ICMS ST.
+SP-Considerar no cálculo da média "T" do Crédito Outorgado os lançamentos de CF-es.
+MS-Criar opção para que o sistema permita efetuar lançamento sem controlar o CFOP por UF.
+SE-Ajustar os percentuais do cálculo do TARE sobre as entradas conforme DECRETO Nº 30.666/2017.
+RJ-Gerar o registro E112 do SPED Fiscal quando selecionado o código de ajuste RJ020073 em impostos lançados.
+Alterar a forma de deduzir o valor de PIS/COFINS da base de cálculo dos impostos FUST e FUNTEL \x0d\x0a\x0d\x0a
+Criar validações referente ao certificado digital para uso no EFD Reinf.
+PR-Atualizar a relação de ajustes disponíveis na coluna Valores declaratórios conforme tabela de código de benefício fiscal.
+Habilitar os botões Emitir DANFE e Consultar NFe do módulo Escrita quando utilizado o Domínio WEB.\x0d\x0a
+Criar opção para entrega sem movimento do REINF.
+RS-Implementar opção para calcular o imposto 9-SUBTRI para mais de um código de recolhimento e periodicidade. 
+RS-Atualizar a tabela de dispositivo de crédito presumido e Anexo VA e VB da GIA.
+RO-Alterar o arredondamento do Crédito Presumido Exterior Lei 1.473/2005 para duas casas decimais.
+SP-Permitir lançar nota de transferência de débitos/créditos entre matriz e filial com modelo 55-NF-e.
+Implementar rotina para efetuar o reconhecimento da receita contábil das atividades imobiliárias pela evolução da obra - Método POC (Percentual de Obra Concluída), conforme CPC 47 (IFRS 15).
+ES-Implementar o cálculo do complemento do imposto nas aquisições de mercadoria de estabelecimento atacadista, não destinadas a comercialização e industrialização conforme § 4º do Art. 534-Z-Z-A RICMS-ES.
+Alterar o sistema para setar a Base do Crédito "12 - Devolução de Vendas Sujeitas à Incidência Não-Cumulativa" para PIS e COFINS quando informado CFOP 1.206/2.206.
+SC-Não gerar no SPED Fiscal os valores agregados das notas de compra de produtor rural a partir de 01/2020.
+RJ-Implementar no sistema para gerar o código de ajuste RJ50000000 no registro C197 referente as notas Devolução de compra de aquisição de empresa do Simples Nacional conforme Resolução Sefaz 132/2020.\x0d\x0a
+Gerar informação no campo 04-QTDE do registro G140 do SPED Fiscal quando realizada a baixa de um bem. 
+RN-Implementar o cálculo do ICMS para os contribuintes atacadistas, conforme Decreto n° 22.199/2011 e Orientação Técnica EFD nº 016/2019. 
+CE-Alterar o comportamento para buscar a alíquota do incremento no cálculo do imposto 31-ST/AT na entrada de produto estrangeiro.
+MG-Alterar a emissão da guia DAE quando possuir ajustes lançados para o imposto 21-RECALI.
+SC-Alterar a forma de calcular a compensação do ICMS em devoluções de compra com crédito presumido confecção - Art. 15 a partir de 01/2020.
+Permitir lançar mais de um produto com códigos iguais em competências diferentes na tela de Correção de Apontamento Estoque Escriturado - K280.\x0d\x0a
+Alterar o sistema para que seja realizada a Consulta Completa ao "Consultar NF-e" na tela Entradas/Saídas, conforme ao novo leiaute do Portal NFe através do certificado digital.\x0d\x0a\x0d\x0a
+ES-Alterar o sistema para que seja calculado o adicional do Compete-ES com alíquota de 3,5% a partir de 06/2020.
+Alterar sistema para que seja possível deduzir o valor do INSS Retido dos serviços subcontratados sobre os Serviços tomados ou prestados.\x0d\x0a
+DF-Alterar o cálculo do imposto 27-ICMSA para empresas optantes do simples nacional.
+RJ-Criar rotina para geração dos registros C197 e E115 no SPED Fiscal para escrituração das operações de saída com ICMS Diferido.
+MT-Alterar o sistema para calcular o Fundo IMAD em substituição ao CIPEM.\x0d\x0a\x0d\x0a
+MG-Não gerar as linhas 115 e 116 da DAPI - versão 9.03.00.
+Alterar sistema para que seja criada mensagem de alerta na alteração do cadastro do imposto, quando alterado o código de recolhimento e o mesmo tiver lançamentos.
+SP-Alterar o sistema para gerar o "CNPJ Produtor Rural" no arquivo do e-CredRural para empresas que possuem o tipo de inscrição CEI ou CAEPF em seu cadastro.
+Deduzir o valor de ICMS a recolher da base de cálculo do PIS e COFINS, conforme Solução de Consulta Interna nº 13 - Cosit da RFB e IN 1.911/2019.\x0d\x0a\x0d\x0a
+Gerar no SPED Fiscal os caracteres especiais _ [ ] = + do campo "Descrição" do cadastro de produtos.\x0d\x0a
+Implementar o código da empresa, código da atividade que foi concluída e a competência nas telas de conclusão de atividades do Gestta Processos.
+RJ-Implementar a apuração do imposto 01-ICMS e 08-DIFALI referente notas de devolução de compra lançadas conforme a Resolução SEFAZ Nº 132/2020.\x0d\x0a
+PI-Habilitar o lançamento dos bilhetes de passagem para empresas do Piauí.
+Permitir vincular processos administrativos ou judiciais nas Saídas e Serviços com INSS Retido e gerar no evento R-2020 da EFD-Reinf.
+RS-Atualizar o código gerado no campo 02 do registro E250 do SPED Fiscal, para o imposto 31-ST/AT quando possui regime especial de pagamento conforme Art. 53-E, I do Livro III do RICMS/RS.\x0d\x0a
+RS-Ajustar o código do participante no registro C176 do SPED Fiscal quando a última entrada considerada no cálculo do ressarcimento for NF-e de emissão própria.
+SC-Alterar o sistema para realizar o cálculo do crédito presumido na entrada de leite "in natura" considerando o valor contábil do produto.
+PI-Implementar o cálculo do imposto 31-ST/AT para empresas do Piauí.
+MG-Inserir o código de receita 0315-2 utilizado pelo sistema para emitir a guia DAE do imposto 27-ICMSA.
+ES-Alterar o sistema para que o imposto 130-FUNDAP seja calculado sobre notas de remessa.\x0d\x0a\x0d\x0a\x0d\x0a
+RS-Alterar o sped fiscal para gerar o ajuste E111 com o código RS031407 e E220 com o código RS130708 para o estorno do AMPARA.
+ES-Implementar o cálculo do imposto 130-FUNDAP por código de recolhimento.\x0d\x0a\x0d\x0a
+DF-Alterar a apuração do Decreto/Regime Especial Lei n° 5.005/2012 e Ato Declaratório 97/2014, conforme alteração na tabela do registros E111 e E115 do SPED Fiscal a partir de 01/2020.
+GO-Implementar no sistema o cálculo das devoluções de vendas para que seja deduzido do valor da base de cálculo do imposto 60-PROTEGE.
+MG-Ajustar o cálculo do imposto 27-ICMSA para o Tipo de Antecipação Aquisição de arroz, conforme Art. 4º, Anexo XVI do RICMS e Orientação Tributária DOLT/SUTRI nº 001/2014.
+Alterar a geração do Bloco H do SPED Fiscal quando existir mais de uma informação de posse do produto no mesmo mês com "Valor total" preenchido com "0,00".
+PR-Alterar o sistema para gerar o registro E112 para os lançamentos do ajuste com o código PR020216.
+SC-Alterar o sistema para gerar o código de ajuste SC024999 a partir de 01/06/2020 referente ao Crédito do Pagamento Antecipado por Importação. 
+PR-Alterar o sistema para gerar o CST apenas com 2 dígitos para o informativo ADRC ST.\x0d\x0a
+Deduzir o ICMS desonerado na base de cálculo do PIS/COFINS nas devoluções de venda.
+SC-Considerar o valor do ajuste lançado com operação Saldo credor anterior Pagamento Antecipado por Importação, para o controle do saldo credor para o mês seguinte da tela de subapuração do TTD 409, 410 ou 411.
+Alterar o sistema para somar o valor do IPI na base de cálculo do imposto 38-COSIRF.  
+BA-Alterar o vencimento do imposto 27-ICMSA, em notas que não possuem emissão de MDF-e.\x0d\x0a
+SP-Gerar o registro G126 do SPED Fiscal referente a créditos de ICMS do ativo imobilizado de períodos anteriores.
+PB-Implementar no sistema o cálculo do Fundo Estadual de Equilíbrio Fiscal - FEEF sobre o benefício de redução de BC da ST nas entradas para motocicletas e veículos novos.
+Alterar sistema, para que ao realizar o Pagamento de Impostos via e-CAC, quando a contabilização estiver configurada no cadastro do imposto, não seja necessário o usuário acessar a janela "Lançamentos Contábeis Baixas de Impostos" e gravar.
+Otimizar a apuração do imposto 17-PIS-MP66 e 19-COFINS-N na DW "dws_pis_cofins_nc_soma_creditos_dados"\x0d\x0a\x0d\x0a
+Criar no Menu Utilitários a opção de alterar em lote do Código recolhimento dos impostos lançados.
+SP-Alterar o sistema para gerar o registro C197 de empresas varejistas conforme nova orientação PORTARIA CAT 54/2020.
+SC-Disponibilizar o período subsequente de vencimento para o crédito presumido conforme Comunicado DIAT 05/2020.
